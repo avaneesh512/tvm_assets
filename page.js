@@ -1,5 +1,6 @@
 
-window.onload = function(){
+window.addEventListener('DOMContentLoaded', (event) => {
+
 const D = document;
 
 const testimonial01 = D.getElementById('testimonial01');
@@ -616,5 +617,5 @@ testinomialDot09.addEventListener('click', () => {
 
 testinomialDot10.addEventListener('click', () => {
     testimonialPos10();
+});    
 });
-}
