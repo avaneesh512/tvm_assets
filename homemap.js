@@ -1,4 +1,3 @@
-// - - - - - Variables:
 const homeMap = document;
 
 const homePageMapSelectionRedBar = homeMap.getElementById('homePageMapSelectionRedBar');
