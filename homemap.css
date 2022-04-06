@@ -1,92 +1,92 @@
-#textarea_editor .centerMe {
+#textarea_editor .group_logos_scroll .centerMe {
 	 margin: 0 auto;
 }
- #textarea_editor .abs {
+ #textarea_editor .group_logos_scroll .abs {
 	 position: absolute;
 }
- #textarea_editor .rel {
+ #textarea_editor .group_logos_scroll .rel {
 	 position: relative;
 }
- #textarea_editor .inlineMe {
+ #textarea_editor .group_logos_scroll .inlineMe {
 	 display: inline-block;
 }
- #textarea_editor .centerAbs {
+ #textarea_editor .group_logos_scroll .centerAbs {
 	 left: 50%;
 	 transform: translateX(-50%);
 }
- #textarea_editor .leftAlign {
+ #textarea_editor .group_logos_scroll .leftAlign {
 	 text-align: left;
 }
- #textarea_editor .pointer {
+ #textarea_editor .group_logos_scroll .pointer {
 	 cursor: pointer;
 }
- #textarea_editor .murgadoMaxWidth {
+ #textarea_editor .group_logos_scroll .murgadoMaxWidth {
 	 max-width: 1600px;
 }
- #textarea_editor .murgadoSecondaryMaxWidth {
+ #textarea_editor .group_logos_scroll .murgadoSecondaryMaxWidth {
 	 max-width: 1200px;
 }
- #textarea_editor .maxWidth, #textarea_editor .murgadoMaxWidth, #textarea_editor .murgadoSecondaryMaxWidth {
+ #textarea_editor .group_logos_scroll .maxWidth, #textarea_editor .group_logos_scroll .murgadoMaxWidth, #textarea_editor .group_logos_scroll .murgadoSecondaryMaxWidth {
 	 width: 100%;
 }
- #textarea_editor a {
+ #textarea_editor .group_logos_scroll a {
 	 text-decoration: none;
 }
- #textarea_editor a[x-apple-data-detectors=true] {
+ #textarea_editor .group_logos_scroll a[x-apple-data-detectors=true] {
 	 color: inherit !important;
 	 text-decoration: inherit !important;
 }
- #textarea_editor h1, #textarea_editor h2, #textarea_editor h3, #textarea_editor h4, #textarea_editor h5 {
+ #textarea_editor .group_logos_scroll h1, #textarea_editor .group_logos_scroll h2, #textarea_editor .group_logos_scroll h3, #textarea_editor .group_logos_scroll h4, #textarea_editor .group_logos_scroll h5 {
 	 color: #000000;
 	 line-height: 120%;
 }
- #textarea_editor h1 {
+ #textarea_editor .group_logos_scroll h1 {
 	 font-size: 60px;
 }
- #textarea_editor h2 {
+ #textarea_editor .group_logos_scroll h2 {
 	 font-size: 48px;
 }
- #textarea_editor h3 {
+ #textarea_editor .group_logos_scroll h3 {
 	 font-size: 36px;
 }
- #textarea_editor h4 {
+ #textarea_editor .group_logos_scroll h4 {
 	 font-size: 30px;
 }
- #textarea_editor h5 {
+ #textarea_editor .group_logos_scroll h5 {
 	 font-size: 24px;
 }
- #textarea_editor .murgadoBlue {
+ #textarea_editor .group_logos_scroll .murgadoBlue {
 	 background-color: #2A3886;
 }
- #textarea_editor .murgadoRed {
+ #textarea_editor .group_logos_scroll .murgadoRed {
 	 background-color: #E53941;
 }
- #textarea_editor .spacer10 {
+ #textarea_editor .group_logos_scroll .spacer10 {
 	 height: 10px;
 }
- #textarea_editor .spacer20 {
+ #textarea_editor .group_logos_scroll .spacer20 {
 	 height: 20px;
 }
- #textarea_editor .spacer30 {
+ #textarea_editor .group_logos_scroll .spacer30 {
 	 height: 30px;
 }
- #textarea_editor .spacer40 {
+ #textarea_editor .group_logos_scroll .spacer40 {
 	 height: 40px;
 }
- #textarea_editor .spacer10, #textarea_editor .spacer20, #textarea_editor .spacer30, #textarea_editor .spacer40 {
+ #textarea_editor .group_logos_scroll .spacer10, #textarea_editor .group_logos_scroll .spacer20, #textarea_editor .group_logos_scroll .spacer30, #textarea_editor .group_logos_scroll .spacer40 {
 	 width: 100%;
 }
- #textarea_editor #LogoAnimationBigCont {
+ #textarea_editor .group_logos_scroll #LogoAnimationBigCont {
 	 width: 100%;
 	 background-color: #ffffff;
 }
- #textarea_editor #LogoAnimationBigCont, #textarea_editor #logoAnimCont, #textarea_editor .logoAnim {
+ #textarea_editor .group_logos_scroll #LogoAnimationBigCont, #textarea_editor .group_logos_scroll #logoAnimCont, #textarea_editor .group_logos_scroll .logoAnim {
 	 height: 86px;
 }
- #textarea_editor #logoAnimCont {
+ #textarea_editor .group_logos_scroll #logoAnimCont {
 	 overflow: hidden;
 }
- #textarea_editor .logoAnim {
+ #textarea_editor .group_logos_scroll .logoAnim {
 	 width: 1609px;
 	 top: 0px;
 	 -webkit-animation-duration: 100s;
@@ -107,7 +107,7 @@
 	 -o-transform-origin: 0%;
 	 transform-origin: 0%;
 }
- #textarea_editor #logoAnim01 {
+ #textarea_editor .group_logos_scroll #logoAnim01 {
 	 z-index: 5010;
 	 -webkit-animation-name: logoAnim01;
 	 -moz-animation-name: logoAnim01;
@@ -115,7 +115,7 @@
 	 -o-animation-name: logoAnim01;
 	 animation-name: logoAnim01;
 }
- #textarea_editor #logoAnim02 {
+ #textarea_editor .group_logos_scroll #logoAnim02 {
 	 z-index: 5009;
 	 -webkit-animation-name: logoAnim02;
 	 -moz-animation-name: logoAnim02;
@@ -123,7 +123,7 @@
 	 -o-animation-name: logoAnim02;
 	 animation-name: logoAnim02;
 }
- #textarea_editor #logoAnim03 {
+ #textarea_editor .group_logos_scroll #logoAnim03 {
 	 z-index: 5008;
 	 -webkit-animation-name: logoAnim03;
 	 -moz-animation-name: logoAnim03;
@@ -131,7 +131,7 @@
 	 -o-animation-name: logoAnim03;
 	 animation-name: logoAnim03;
 }
- #textarea_editor #logoAnim04 {
+ #textarea_editor .group_logos_scroll #logoAnim04 {
 	 z-index: 5007;
 	 -webkit-animation-name: logoAnim04;
 	 -moz-animation-name: logoAnim04;
@@ -139,274 +139,72 @@
 	 -o-animation-name: logoAnim04;
 	 animation-name: logoAnim04;
 }
- @keyframes logoAnim01 {
-	 #textarea_editor 0% {
-		 left: 0px;
-	}
-	 #textarea_editor 25% {
-		 left: -1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 26% {
-		 left: -1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 27% {
-		 left: 1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 28% {
-		 left: 1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 74% {
-		 left: 1640px;
-	}
-	 #textarea_editor 75% {
-		 left: 1640px;
-	}
-	 #textarea_editor 100% {
-		 left: 0px;
-	}
-}
- @-webkit-keyframes logoAnim01 {
-	 #textarea_editor 0% {
-		 left: 0px;
-	}
-	 #textarea_editor 25% {
-		 left: -1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 26% {
-		 left: -1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 27% {
-		 left: 1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 28% {
-		 left: 1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 74% {
-		 left: 1640px;
-	}
-	 #textarea_editor 75% {
-		 left: 1640px;
-	}
-	 #textarea_editor 100% {
-		 left: 0px;
-	}
-}
- @keyframes logoAnim02 {
-	 #textarea_editor 0% {
-		 left: 1640px;
-	}
-	 #textarea_editor 25% {
-		 left: 0px;
-	}
-	 #textarea_editor 50% {
-		 left: -1640px;
-	}
-	 #textarea_editor 52% {
-		 left: -1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 53% {
-		 left: -1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 54% {
-		 left: 1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 100% {
-		 left: 1640px;
-		 opacity: 1;
-	}
-}
- @-webkit-keyframes logoAnim02 {
-	 #textarea_editor 0% {
-		 left: 1640px;
-	}
-	 #textarea_editor 25% {
-		 left: 0px;
-	}
-	 #textarea_editor 50% {
-		 left: -1640px;
-	}
-	 #textarea_editor 52% {
-		 left: -1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 53% {
-		 left: -1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 54% {
-		 left: 1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 100% {
-		 left: 1640px;
-		 opacity: 1;
-	}
-}
- @keyframes logoAnim03 {
-	 #textarea_editor 0% {
-		 left: 1640px;
-	}
-	 #textarea_editor 25% {
-		 left: 1640px;
-	}
-	 #textarea_editor 50% {
-		 left: 0px;
-	}
-	 #textarea_editor 75% {
-		 left: -1640px;
-	}
-	 #textarea_editor 76% {
-		 left: -1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 77% {
-		 left: -1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 99% {
-		 left: 1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 100% {
-		 left: 1640px;
-		 opacity: 1;
-	}
-}
- @-webkit-keyframes logoAnim03 {
-	 #textarea_editor 0% {
-		 left: 1640px;
-	}
-	 #textarea_editor 25% {
-		 left: 1640px;
-	}
-	 #textarea_editor 50% {
-		 left: 0px;
-	}
-	 #textarea_editor 75% {
-		 left: -1640px;
-	}
-	 #textarea_editor 76% {
-		 left: -1640px;
-		 opacity: 1;
-	}
-	 #textarea_editor 77% {
-		 left: -1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 99% {
-		 left: 1640px;
-		 opacity: 0;
-	}
-	 #textarea_editor 100% {
-		 left: 1640px;
-		 opacity: 1;
-	}
-}
- @keyframes logoAnim04 {
-	 #textarea_editor 0% {
-		 left: 1640px;
-	}
-	 #textarea_editor 50% {
-		 left: 1640px;
-	}
-	 #textarea_editor 75% {
-		 left: 0px;
-	}
-	 #textarea_editor 100% {
-		 left: -1640px;
-	}
-}
- @-webkit-keyframes logoAnim04 {
-	 #textarea_editor 0% {
-		 left: 1640px;
-	}
-	 #textarea_editor 50% {
-		 left: 1640px;
-	}
-	 #textarea_editor 75% {
-		 left: 0px;
-	}
-	 #textarea_editor 100% {
-		 left: -1640px;
-	}
-}
- #textarea_editor #homePageMapBigCont {
+ #textarea_editor .group_logos_scroll #homePageMapBigCont {
 	 text-align: center;
 	 overflow: hidden;
 	 z-index: 2000;
 	 background-color: #ffffff;
 }
- #textarea_editor .homePageMapCont {
+ #textarea_editor .group_logos_scroll .homePageMapCont {
 	 max-width: 1200px;
 }
- #textarea_editor #homePageMapTitleCont {
+ #textarea_editor .group_logos_scroll #homePageMapTitleCont {
 	 padding: 100px 0 20px;
 	 text-align: center;
 }
- #textarea_editor #homePageMap {
+ #textarea_editor .group_logos_scroll #homePageMap {
 	 width: 100%;
 }
- #textarea_editor #homePageMapSelectionCont {
+ #textarea_editor .group_logos_scroll #homePageMapSelectionCont {
 	 margin: 30px auto;
 	 height: 40px;
 }
- #textarea_editor #homePageMapSelectionScroller {
+ #textarea_editor .group_logos_scroll #homePageMapSelectionScroller {
 	 left: 0px;
 	 top: 0px;
 	 height: 100%;
 	 width: 850px;
 }
- #textarea_editor .citySelectionCont {
+ #textarea_editor .group_logos_scroll .citySelectionCont {
 	 top: 0;
 	 height: 40px;
 	 text-align: left;
 	 padding-left: 0;
 }
- #textarea_editor #cityMiami, #textarea_editor #cityStuart, #textarea_editor #cityEdison {
+ #textarea_editor .group_logos_scroll #cityMiami, #textarea_editor .group_logos_scroll #cityStuart, #textarea_editor .group_logos_scroll #cityEdison {
 	 width: 150px;
 }
- #textarea_editor #cityMiami {
+ #textarea_editor .group_logos_scroll #cityMiami {
 	 width: 150px;
 }
- #textarea_editor #cityStuart {
+ #textarea_editor .group_logos_scroll #cityStuart {
 	 width: 150px;
 }
- #textarea_editor #cityJackson {
+ #textarea_editor .group_logos_scroll #cityJackson {
 	 width: 230px;
 }
- #textarea_editor #cityChicago {
+ #textarea_editor .group_logos_scroll #cityChicago {
 	 width: 170px;
 }
- #textarea_editor #cityEdison {
+ #textarea_editor .group_logos_scroll #cityEdison {
 	 width: 150px;
 }
- #textarea_editor #homePageMapSelectionRedBar {
+ #textarea_editor .group_logos_scroll #homePageMapSelectionRedBar {
 	 width: 111px;
 	 height: 4px;
 	 left: 0;
 	 top: 38px;
 }
- #textarea_editor #homePageMapTabCont {
+ #textarea_editor .group_logos_scroll #homePageMapTabCont {
 	 padding-top: 10px;
 	 padding-bottom: 50px;
 }
- #textarea_editor .tabGroups {
+ #textarea_editor .group_logos_scroll .tabGroups {
 	 width: 100%;
 	 display: inline-block;
 	 text-align: left;
 }
- #textarea_editor .homePageMapTabs {
+ #textarea_editor .group_logos_scroll .homePageMapTabs {
 	 margin-bottom: 25px;
 	 margin-right: 25px;
 	 width: 31%;
@@ -418,27 +216,27 @@
 	 color: #000000;
 	 text-align: left;
 }
- #textarea_editor .tabDivider {
+ #textarea_editor .group_logos_scroll .tabDivider {
 	 width: 40px;
 	 height: 2px;
 	 margin: 25px 0;
 	 background-color: #2A3886;
 }
- #textarea_editor .tabBoxLinks, #textarea_editor .tabGroupButton, #textarea_editor .homePageMapTabs, #textarea_editor .homePageMapTabs a, #textarea_editor .homePageMapTabs ul li {
+ #textarea_editor .group_logos_scroll .tabBoxLinks, #textarea_editor .group_logos_scroll .tabGroupButton, #textarea_editor .group_logos_scroll .homePageMapTabs, #textarea_editor .group_logos_scroll .homePageMapTabs a, #textarea_editor .group_logos_scroll .homePageMapTabs ul li {
 	 font-size: 16px;
 	 line-height: 150%;
 	 color: #000000;
 }
- #textarea_editor ul li {
+ #textarea_editor .group_logos_scroll ul li {
 	 margin-left: 18px;
 }
- #textarea_editor .tabBoxLinks, #textarea_editor .homePageMapTabs {
+ #textarea_editor .group_logos_scroll .tabBoxLinks, #textarea_editor .group_logos_scroll .homePageMapTabs {
 	 color: #000000;
 }
- #textarea_editor .tabHeader {
+ #textarea_editor .group_logos_scroll .tabHeader {
 	 color: #2A3886;
 }
- #textarea_editor .tabGroupButton {
+ #textarea_editor .group_logos_scroll .tabGroupButton {
 	 width: 156px;
 	 height: 44px;
 	 color: #ffffff;
@@ -450,14 +248,14 @@
 	 margin-top: 25px;
 	 cursor: pointer;
 }
- #textarea_editor .hideMe {
+ #textarea_editor .group_logos_scroll .hideMe {
 	 width: 100%;
 	 display: none;
 }
- #textarea_editor #hideMiami {
+ #textarea_editor .group_logos_scroll #hideMiami {
 	 display: inline-block;
 }
- #textarea_editor .tabIMGcont {
+ #textarea_editor .group_logos_scroll .tabIMGcont {
 	 top: 0px;
 	 left: 0px;
 	 width: 100%;
@@ -467,208 +265,477 @@
 	 background-size: cover;
 	 background-repeat: no-repeat;
 }
- #textarea_editor #tabIMGcont01 {
+ #textarea_editor .group_logos_scroll #tabIMGcont01 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103832');
 }
- #textarea_editor #tabIMGcont02 {
+ #textarea_editor .group_logos_scroll #tabIMGcont02 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103833');
 }
- #textarea_editor #tabIMGcont03 {
+ #textarea_editor .group_logos_scroll #tabIMGcont03 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103834');
 }
- #textarea_editor #tabIMGcont04 {
+ #textarea_editor .group_logos_scroll #tabIMGcont04 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103835');
 }
- #textarea_editor #tabIMGcont05 {
+ #textarea_editor .group_logos_scroll #tabIMGcont05 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103836');
 }
- #textarea_editor #tabIMGcont06 {
+ #textarea_editor .group_logos_scroll #tabIMGcont06 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103837');
 }
- #textarea_editor #tabIMGcont07 {
+ #textarea_editor .group_logos_scroll #tabIMGcont07 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103838');
 }
- #textarea_editor #tabIMGcont08 {
+ #textarea_editor .group_logos_scroll #tabIMGcont08 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103839');
 }
- #textarea_editor #tabIMGcont09 {
+ #textarea_editor .group_logos_scroll #tabIMGcont09 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103840');
 }
- #textarea_editor #tabIMGcont10 {
+ #textarea_editor .group_logos_scroll #tabIMGcont10 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103841');
 }
- #textarea_editor #tabIMGcont11 {
+ #textarea_editor .group_logos_scroll #tabIMGcont11 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103837');
 }
- #textarea_editor #tabIMGcont12 {
+ #textarea_editor .group_logos_scroll #tabIMGcont12 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103842');
 }
- #textarea_editor #tabIMGcont13 {
+ #textarea_editor .group_logos_scroll #tabIMGcont13 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103843');
 }
- #textarea_editor #tabIMGcont14 {
+ #textarea_editor .group_logos_scroll #tabIMGcont14 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103844');
 }
- #textarea_editor #tabIMGcont15 {
+ #textarea_editor .group_logos_scroll #tabIMGcont15 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103845');
 }
- #textarea_editor #tabIMGcont16 {
+ #textarea_editor .group_logos_scroll #tabIMGcont16 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103846');
 }
- #textarea_editor #tabIMGcont17 {
+ #textarea_editor .group_logos_scroll #tabIMGcont17 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103847');
 }
- #textarea_editor #tabIMGcont18 {
+ #textarea_editor .group_logos_scroll #tabIMGcont18 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103848');
 }
- #textarea_editor #tabIMGcont19 {
+ #textarea_editor .group_logos_scroll #tabIMGcont19 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103849');
 }
- #textarea_editor #tabIMGcont20 {
+ #textarea_editor .group_logos_scroll #tabIMGcont20 {
 	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103850');
 }
- #textarea_editor .tabHeaderLineBreakCont {
+ #textarea_editor .group_logos_scroll .tabHeaderLineBreakCont {
 	 height: 65px;
 }
- #textarea_editor #fastPass {
+ #textarea_editor .group_logos_scroll #fastPass {
 	 height: 43px;
 }
  @media screen and (max-width: 1250px) {
-	 #textarea_editor .murgadoSecondaryMaxWidth {
+	 #textarea_editor .group_logos_scroll .murgadoSecondaryMaxWidth {
 		 padding-left: 50px;
 		 padding-right: 50px;
 	}
-	 #textarea_editor #homePageMapSelectionCont {
+	 #textarea_editor .group_logos_scroll #homePageMapSelectionCont {
 		 margin-left: 50px;
 	}
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 width: 30%;
 	}
-	 #textarea_editor .wrapMe {
+	 #textarea_editor .group_logos_scroll .wrapMe {
 		 display: inline-block;
 	}
-	 #textarea_editor .hideWrap {
+	 #textarea_editor .group_logos_scroll .hideWrap {
 		 display: none;
 	}
-	 #textarea_editor ul li {
+	 #textarea_editor .group_logos_scroll ul li {
 		 font-size: 14px !important;
 	}
-	 #textarea_editor #fastPass {
+	 #textarea_editor .group_logos_scroll #fastPass {
 		 height: 55px;
 	}
 }
  @media screen and (max-width: 1200px) {
-	 #textarea_editor #fastPass {
+	 #textarea_editor .group_logos_scroll #fastPass {
 		 height: 34px;
 	}
 }
  @media screen and (max-width: 1180px) {
-	 #textarea_editor .tabIMGcont {
+	 #textarea_editor .group_logos_scroll .tabIMGcont {
 		 height: 125px;
 	}
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 padding-top: 160px;
 		 height: 500px;
 	}
-	 #textarea_editor #fastPass {
+	 #textarea_editor .group_logos_scroll #fastPass {
 		 height: 34px;
 	}
 }
  @media screen and (max-width: 1150px) {
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 padding-left: 25px;
 		 padding-right: 25px;
 	}
-	 #textarea_editor #fastPass {
+	 #textarea_editor .group_logos_scroll #fastPass {
 		 height: 55px;
 	}
 }
  @media screen and (max-width: 1080px) {
-	 #textarea_editor #fastPass {
+	 #textarea_editor .group_logos_scroll #fastPass {
 		 height: 34px;
 	}
 }
  @media screen and (max-width: 1050px) {
-	 #textarea_editor .tabBoxLinks, #textarea_editor .tabGroupButton, #textarea_editor .homePageMapTabs, #textarea_editor .homePageMapTabs a, #textarea_editor .homePageMapTabs ul li {
+	 #textarea_editor .group_logos_scroll .tabBoxLinks, #textarea_editor .group_logos_scroll .tabGroupButton, #textarea_editor .group_logos_scroll .homePageMapTabs, #textarea_editor .group_logos_scroll .homePageMapTabs a, #textarea_editor .group_logos_scroll .homePageMapTabs ul li {
 		 font-size: 14px;
 	}
-	 #textarea_editor h5 {
+	 #textarea_editor .group_logos_scroll h5 {
 		 font-size: 20px;
 	}
-	 #textarea_editor #homePageMapSelectionRedBar {
+	 #textarea_editor .group_logos_scroll #homePageMapSelectionRedBar {
 		 width: 93px;
 	}
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 padding-left: 20px;
 		 padding-right: 20px;
 		 padding-top: 140px;
 		 height: 470px;
 	}
-	 #textarea_editor .tabIMGcont {
+	 #textarea_editor .group_logos_scroll .tabIMGcont {
 		 height: 110px;
 	}
 }
  @media screen and (max-width: 900px) {
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 width: 46%;
 	}
-	 #textarea_editor .tabGroups {
+	 #textarea_editor .group_logos_scroll .tabGroups {
 		 width: 90%;
 		 margin: 0 auto;
 	}
 }
  @media screen and (max-width: 800px) {
-	 #textarea_editor #homePageMapIMGCont {
+	 #textarea_editor .group_logos_scroll #homePageMapIMGCont {
 		 display: none;
 	}
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 width: 45%;
 	}
-	 #textarea_editor .tabGroups {
+	 #textarea_editor .group_logos_scroll .tabGroups {
 		 width: 100%;
 	}
 }
  @media screen and (max-width: 650px) {
-	 #textarea_editor h1 {
+	 #textarea_editor .group_logos_scroll h1 {
 		 font-size: 36px;
 	}
-	 #textarea_editor h2 {
+	 #textarea_editor .group_logos_scroll h2 {
 		 font-size: 30px;
 	}
-	 #textarea_editor h3 {
+	 #textarea_editor .group_logos_scroll h3 {
 		 font-size: 24px;
 	}
-	 #textarea_editor h4 {
+	 #textarea_editor .group_logos_scroll h4 {
 		 font-size: 20px;
 	}
-	 #textarea_editor #homePageMapTitleCont {
+	 #textarea_editor .group_logos_scroll #homePageMapTitleCont {
 		 padding: 40px 0;
 	}
-	 #textarea_editor .murgadoSecondaryMaxWidth, #textarea_editor #LogoAnimationBigCont {
+	 #textarea_editor .group_logos_scroll .murgadoSecondaryMaxWidth, #textarea_editor .group_logos_scroll #LogoAnimationBigCont {
 		 padding-left: 20px;
 		 padding-right: 0;
 	}
-	 #textarea_editor #homePageMapSelectionCont {
+	 #textarea_editor .group_logos_scroll #homePageMapSelectionCont {
 		 margin-left: 20px;
 		 margin-top: 10px;
 	}
-	 #textarea_editor .tabIMGcont {
+	 #textarea_editor .group_logos_scroll .tabIMGcont {
 		 height: 110px;
 	}
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 padding-top: 135px;
 		 height: 445px;
 		 width: 250px;
 		 margin-right: 20px;
 	}
-	 #textarea_editor .tabGroups {
+	 #textarea_editor .group_logos_scroll .tabGroups {
 		 width: 1640px;
 	}
-	 #textarea_editor #homePageMapTabCont {
+	 #textarea_editor .group_logos_scroll #homePageMapTabCont {
 		 overflow-x: scroll;
 	}
-	 #textarea_editor .homePageMapTabs {
+	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 height: 460px;
 	}
+}
+@keyframes logoAnim01 {
+
+  0% {
+      left: 0px;
+  }
+
+  25% {
+      left: -1640px;
+      opacity: 1;
+  }
+
+  26% {
+      left: -1640px;
+      opacity: 0;
+  }
+
+  27% {
+      left: 1640px;
+      opacity: 0;
+  }
+
+  28% {
+      left: 1640px;
+      opacity: 1;
+  }
+
+  74% {
+      left: 1640px;
+  }
+
+  75% {
+      left: 1640px;
+  }
+
+  100% {
+      left: 0px;
+  }
+
+}
+
+@-webkit-keyframes logoAnim01 {
+
+  0% {
+      left: 0px;
+  }
+
+  25% {
+      left: -1640px;
+      opacity: 1;
+  }
+
+  26% {
+      left: -1640px;
+      opacity: 0;
+  }
+
+  27% {
+      left: 1640px;
+      opacity: 0;
+  }
+
+  28% {
+      left: 1640px;
+      opacity: 1;
+  }
+
+  74% {
+      left: 1640px;
+  }
+
+  75% {
+      left: 1640px;
+  }
+
+  100% {
+      left: 0px;
+  }
+
+}
+
+@keyframes logoAnim02 {
+
+  0% {
+      left: 1640px;
+  }
+
+  25% {
+      left: 0px;
+  }
+
+  50% {
+      left: -1640px;
+  }
+
+  52% {
+      left: -1640px;
+      opacity: 1;
+  }
+
+  53% {
+      left: -1640px;
+      opacity: 0;
+  }
+
+  54% {
+      left: 1640px;
+      opacity: 0;
+  }
+
+  100% {
+      left: 1640px;
+      opacity: 1;
+  }
+
+}
+
+@-webkit-keyframes logoAnim02 {
+
+  0% {
+      left: 1640px;
+  }
+
+  25% {
+      left: 0px;
+  }
+
+  50% {
+      left: -1640px;
+  }
+
+  52% {
+      left: -1640px;
+      opacity: 1;
+  }
+
+  53% {
+      left: -1640px;
+      opacity: 0;
+  }
+
+  54% {
+      left: 1640px;
+      opacity: 0;
+  }
+
+  100% {
+      left: 1640px;
+      opacity: 1;
+  }
+
+}
+
+@keyframes logoAnim03 {
+
+  0% {
+      left: 1640px;
+  }
+
+  25% {
+      left: 1640px;
+  }
+
+  50% {
+      left: 0px;
+  }
+
+  75% {
+      left: -1640px;
+  }
+
+  76% {
+      left: -1640px;
+      opacity: 1;
+  }
+
+  77% {
+      left: -1640px;
+      opacity: 0;
+  }
+
+  99% {
+      left: 1640px;
+      opacity: 0;
+  }
+
+  100% {
+      left: 1640px;
+      opacity: 1;
+  }
+}
+
+@-webkit-keyframes logoAnim03 {
+
+  0% {
+      left: 1640px;
+  }
+
+  25% {
+      left: 1640px;
+  }
+
+  50% {
+      left: 0px;
+  }
+
+  75% {
+      left: -1640px;
+  }
+
+  76% {
+      left: -1640px;
+      opacity: 1;
+  }
+
+  77% {
+      left: -1640px;
+      opacity: 0;
+  }
+
+  99% {
+      left: 1640px;
+      opacity: 0;
+  }
+
+  100% {
+      left: 1640px;
+      opacity: 1;
+  }
+}
+
+@keyframes logoAnim04 {
+
+  0% {
+      left: 1640px;
+  }
+
+  50% {
+      left: 1640px;
+  }
+
+  75% {
+      left: 0px;
+  }
+
+  100% {
+      left: -1640px;
+  }
+
+}
+
+@-webkit-keyframes logoAnim04 {
+
+  0% {
+      left: 1640px;
+  }
+
+  50% {
+      left: 1640px;
+  }
+
+  75% {
+      left: 0px;
+  }
+
+  100% {
+      left: -1640px;
+  }
+
 }
  
