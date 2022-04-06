@@ -73,8 +73,7 @@
 }
  #textarea_editor .testimonial_slider #testimonialBigCont {
 	 text-align: center;
-	 overflow: hidden;
-	 z-index: 2000;
+	 overflow: hidden;	 
 	 padding: 30px 0;
 	 background-color: #ffffff;
 }
