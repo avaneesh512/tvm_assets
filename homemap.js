@@ -1,3 +1,6 @@
+window.onload = function(){
+
+
 const homeMap = document;
 
 const homePageMapSelectionRedBar = homeMap.getElementById('homePageMapSelectionRedBar');
@@ -126,3 +129,4 @@ cityChicago.addEventListener('click', () => {
 cityEdison.addEventListener('click', () => {
     edisonSelected();
 });
+}
