@@ -1,20 +1,20 @@
 // - - - - - Variables:
-const D = document;
+const homeMap = document;
 
-const homePageMapSelectionRedBar = D.getElementById('homePageMapSelectionRedBar');
-const homePageMapSelectionScroller = D.getElementById('homePageMapSelectionScroller');
+const homePageMapSelectionRedBar = homeMap.getElementById('homePageMapSelectionRedBar');
+const homePageMapSelectionScroller = homeMap.getElementById('homePageMapSelectionScroller');
 
-const cityMiami = D.getElementById('cityMiami');
-const cityStuart = D.getElementById('cityStuart');
-const cityJackson = D.getElementById('cityJackson');
-const cityChicago = D.getElementById('cityChicago');
-const cityEdison = D.getElementById('cityEdison');
+const cityMiami = homeMap.getElementById('cityMiami');
+const cityStuart = homeMap.getElementById('cityStuart');
+const cityJackson = homeMap.getElementById('cityJackson');
+const cityChicago = homeMap.getElementById('cityChicago');
+const cityEdison = homeMap.getElementById('cityEdison');
 
-const hideMiami = D.getElementById('hideMiami');
-const hideStuart = D.getElementById('hideStuart');
-const hideJackson = D.getElementById('hideJackson');
-const hideChicago = D.getElementById('hideChicago');
-const hideEdison = D.getElementById('hideEdison');
+const hideMiami = homeMap.getElementById('hideMiami');
+const hideStuart = homeMap.getElementById('hideStuart');
+const hideJackson = homeMap.getElementById('hideJackson');
+const hideChicago = homeMap.getElementById('hideChicago');
+const hideEdison = homeMap.getElementById('hideEdison');
 
 let cityMQ = window.matchMedia("(max-width: 1050px)");
 
