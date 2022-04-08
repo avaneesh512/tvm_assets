@@ -1,0 +1,208 @@
+#textarea_editor .murgado_mission * {
+	 padding: 0;
+	 margin: 0;
+	 font-size: 0px;
+	 line-height: 100%;
+	 vertical-align: top;
+	 transition: all 0.3s linear;
+	 text-decoration-color: #ffffff;
+	 text-underline-offset: 3px;
+	 scroll-behavior: smooth;
+	 font-family: Arial, Helvetica, sans-serif;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+ #textarea_editor .murgado_mission .centerMe {
+	 margin: 0 auto;
+}
+ #textarea_editor .murgado_mission .abs {
+	 position: absolute;
+}
+ #textarea_editor .murgado_mission .rel {
+	 position: relative;
+}
+ #textarea_editor .murgado_mission .inlineMe {
+	 display: inline-block;
+}
+ #textarea_editor .murgado_mission .centerAbs {
+	 left: 50%;
+	 transform: translateX(-50%);
+}
+ #textarea_editor .murgado_mission .leftAlign {
+	 text-align: left;
+}
+ #textarea_editor .murgado_mission .pointer {
+	 cursor: pointer;
+}
+ #textarea_editor .murgado_mission a {
+	 text-decoration: none;
+}
+ #textarea_editor .murgado_mission a[x-apple-data-detectors=true] {
+	 color: inherit !important;
+	 text-decoration: inherit !important;
+}
+ #textarea_editor .murgado_mission h1, #textarea_editor .murgado_mission h2, #textarea_editor .murgado_mission h3, #textarea_editor .murgado_mission h4, #textarea_editor .murgado_mission h5 {
+	 color: #000000;
+	 line-height: 120%;
+}
+ #textarea_editor .murgado_mission h1 {
+	 font-size: 60px;
+}
+ #textarea_editor .murgado_mission h2 {
+	 font-size: 48px;
+}
+ #textarea_editor .murgado_mission h3 {
+	 font-size: 36px;
+}
+ #textarea_editor .murgado_mission h4 {
+	 font-size: 30px;
+}
+ #textarea_editor .murgado_mission h5 {
+	 font-size: 24px;
+}
+ #textarea_editor .murgado_mission .spacer10 {
+	 height: 10px;
+}
+ #textarea_editor .murgado_mission .spacer20 {
+	 height: 20px;
+}
+ #textarea_editor .murgado_mission .spacer30 {
+	 height: 30px;
+}
+ #textarea_editor .murgado_mission .spacer40 {
+	 height: 40px;
+}
+ #textarea_editor .murgado_mission .spacer10, #textarea_editor .murgado_mission .spacer20, #textarea_editor .murgado_mission .spacer30, #textarea_editor .murgado_mission .spacer40 {
+	 width: 100%;
+}
+ #textarea_editor .murgado_mission .murgadoBlue {
+	 background-color: #002A8F;
+}
+ #textarea_editor .murgado_mission .murgadoRed {
+	 background-color: #CF142B;
+}
+ #textarea_editor .murgado_mission .murgadoMaxWidth {
+	 max-width: 1600px;
+	 width: 100%;
+}
+ #textarea_editor .murgado_mission .maxWidth {
+	 width: 100%;
+}
+ #textarea_editor .murgado_mission #murgadoMissionsBigCont {
+	 text-align: center;
+	 overflow: hidden;
+	 padding: 50px 30px;
+	 background-color: #ffffff;
+}
+ #textarea_editor .murgado_mission #missionCarouselContainer {
+	 height: 782px;
+	 margin-top: 50px;
+	 overflow: hidden;
+	 transition: all 0.5s ease-in-out;
+}
+ #textarea_editor .murgado_mission #missionCarouselScroll {
+	 overflow: hidden;
+	 width: 8135px;
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: nowrap;
+	 justify-content: flex-start;
+	 transition: all 0.5s ease-in-out;
+}
+ #textarea_editor .murgado_mission .missionIMGs {
+	 width: 782px;
+	 margin-right: 35px;
+	 transition: all 0.5s ease-in-out;
+}
+ #textarea_editor .murgado_mission #missionDotsContainer {
+	 width: 90%;
+	 max-width: 220px;
+	 margin-top: 25px;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+}
+ #textarea_editor .murgado_mission .missionDots {
+	 width: 8px;
+	 height: 8px;
+	 border-radius: 4px;
+	 border: 1px solid #002A8F;
+}
+ #textarea_editor .murgado_mission #missionDot01, #textarea_editor .murgado_mission #missionRightArrow, #textarea_editor .murgado_mission #missionBottomRightArrow {
+	 background-color: #002A8F;
+}
+ #textarea_editor .murgado_mission #missionArrowCont {
+	 bottom: 35%;
+	 height: 44px;
+}
+ #textarea_editor .murgado_mission .missionArrows {
+	 top: 0;
+	 width: 44px;
+	 height: 44px;
+	 border-radius: 50%;
+	 background-color: #CCCCCC;
+}
+ #textarea_editor .murgado_mission #missionLeftArrow {
+	 left: -55px;
+}
+ #textarea_editor .murgado_mission #missionRightArrow {
+	 right: -55px;
+}
+ #textarea_editor .murgado_mission .missionArrowIMG {
+	 width: 9px;
+	 height: 16px;
+	 margin: 14px auto 0;
+}
+ @media screen and (max-width: 1750px) {
+	 #textarea_editor .murgado_mission #missionCarouselContainer {
+		 margin-bottom: 60px;
+	}
+	 #textarea_editor .murgado_mission #missionDotsContainer {
+		 margin-top: 40px;
+	}
+	 #textarea_editor .murgado_mission #missionArrowCont {
+		 bottom: -15px;
+	}
+	 #textarea_editor .murgado_mission #missionLeftArrow {
+		 left: 0;
+	}
+	 #textarea_editor .murgado_mission #missionRightArrow {
+		 right: 0;
+	}
+}
+ @media screen and (max-width: 1000px) {
+	 #textarea_editor .murgado_mission #missionCarouselContainer {
+		 height: 500px;
+	}
+	 #textarea_editor .murgado_mission .missionIMGs {
+		 width: 500px;
+		 margin-right: 20px;
+	}
+}
+ @media screen and (max-width: 800px) {
+	 #textarea_editor .murgado_mission h2 {
+		 font-size: 30px;
+	}
+	 #textarea_editor .murgado_mission h4 {
+		 font-size: 20px;
+	}
+}
+ @media screen and (max-width: 600px) {
+	 #textarea_editor .murgado_mission #missionCarouselContainer {
+		 height: 250px;
+	}
+	 #textarea_editor .murgado_mission .missionIMGs {
+		 width: 250px;
+	}
+}
+ @media screen and (max-width: 450px) {
+	 #textarea_editor .murgado_mission #missionCarouselContainer {
+		 margin-bottom: 100px;
+	}
+	 #textarea_editor .murgado_mission #missionArrowCont {
+		 bottom: 30px;
+		 width: 220px;
+	}
+}
+ 
