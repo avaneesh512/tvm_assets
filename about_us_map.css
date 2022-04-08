@@ -1,0 +1,478 @@
+#textarea_editor .aboutus_map_bigcount .centerMe {
+	 margin: 0 auto;
+}
+ #textarea_editor .aboutus_map_bigcount .abs {
+	 position: absolute;
+}
+ #textarea_editor .aboutus_map_bigcount .rel {
+	 position: relative;
+}
+ #textarea_editor .aboutus_map_bigcount .inlineMe {
+	 display: inline-block;
+}
+ #textarea_editor .aboutus_map_bigcount .centerAbs {
+	 left: 50%;
+	 transform: translateX(-50%);
+}
+ #textarea_editor .aboutus_map_bigcount .leftAlign {
+	 text-align: left;
+}
+ #textarea_editor .aboutus_map_bigcount .pointer {
+	 cursor: pointer;
+}
+ #textarea_editor .aboutus_map_bigcount .murgadoMaxWidth {
+	 max-width: 1600px;
+}
+ #textarea_editor .aboutus_map_bigcount .murgadoSecondaryMaxWidth {
+	 max-width: 1200px;
+}
+ #textarea_editor .aboutus_map_bigcount .maxWidth, #textarea_editor .aboutus_map_bigcount .murgadoMaxWidth, #textarea_editor .aboutus_map_bigcount .murgadoSecondaryMaxWidth {
+	 width: 100%;
+}
+ #textarea_editor .aboutus_map_bigcount a {
+	 text-decoration: none;
+}
+ #textarea_editor .aboutus_map_bigcount a[x-apple-data-detectors=true] {
+	 color: inherit !important;
+	 text-decoration: inherit !important;
+}
+ #textarea_editor .aboutus_map_bigcount h1, #textarea_editor .aboutus_map_bigcount h2, #textarea_editor .aboutus_map_bigcount h3, #textarea_editor .aboutus_map_bigcount h4, #textarea_editor .aboutus_map_bigcount h5 {
+	 color: #000000;
+	 line-height: 120%;
+}
+ #textarea_editor .aboutus_map_bigcount h1 {
+	 font-size: 60px;
+}
+ #textarea_editor .aboutus_map_bigcount h2 {
+	 font-size: 48px;
+}
+ #textarea_editor .aboutus_map_bigcount h3 {
+	 font-size: 36px;
+}
+ #textarea_editor .aboutus_map_bigcount h4 {
+	 font-size: 30px;
+}
+ #textarea_editor .aboutus_map_bigcount h5 {
+	 font-size: 24px;
+}
+ #textarea_editor .aboutus_map_bigcount .murgadoBlue {
+	 background-color: #002A8F;
+}
+ #textarea_editor .aboutus_map_bigcount .murgadoRed {
+	 background-color: #CF142B;
+}
+ #textarea_editor .aboutus_map_bigcount .spacer10 {
+	 height: 10px;
+}
+ #textarea_editor .aboutus_map_bigcount .spacer20 {
+	 height: 20px;
+}
+ #textarea_editor .aboutus_map_bigcount .spacer30 {
+	 height: 30px;
+}
+ #textarea_editor .aboutus_map_bigcount .spacer40 {
+	 height: 40px;
+}
+ #textarea_editor .aboutus_map_bigcount .spacer10, #textarea_editor .aboutus_map_bigcount .spacer20, #textarea_editor .aboutus_map_bigcount .spacer30, #textarea_editor .aboutus_map_bigcount .spacer40 {
+	 width: 100%;
+}
+ #textarea_editor .aboutus_map_bigcount #OEMselectionCont {
+	 height: 80px;
+	 margin: 40px auto 20px;
+	 -ms-overflow-style: none;
+	 scrollbar-width: none;
+}
+ #textarea_editor .aboutus_map_bigcount #OEMselectionCont::-webkit-scrollbar {
+	 display: none;
+}
+ #textarea_editor .aboutus_map_bigcount #OEMlogosLongCont {
+	 left: 0px;
+	 top: 0px;
+	 width: 1610px;
+	 height: 65px;
+}
+ #textarea_editor .aboutus_map_bigcount #OEMSelectionRedBar {
+	 width: 85px;
+	 height: 4px;
+	 left: 0;
+	 top: 75px;
+}
+ #textarea_editor .aboutus_map_bigcount #OEMlogosLongCont {
+	 text-align: left;
+}
+ #textarea_editor .aboutus_map_bigcount .OEMlogos {
+	 display: inline-block;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_alfa, #textarea_editor .aboutus_map_bigcount #logos_audi {
+	 margin-right: 30px;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_buick {
+	 margin-right: 38px;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_cadillac, #textarea_editor .aboutus_map_bigcount #logos_honda {
+	 margin-right: 40px;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_ferrari, #textarea_editor .aboutus_map_bigcount #logos_infiniti, #textarea_editor .aboutus_map_bigcount #logos_blm, #textarea_editor .aboutus_map_bigcount #logos_bentley {
+	 margin-right: 30px;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_gmc {
+	 margin-right: 37px;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_maserati {
+	 margin-right: 45px;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_mazda {
+	 margin-right: 55px;
+}
+ #textarea_editor .aboutus_map_bigcount #logos_vw {
+	 margin-right: 45px;
+}
+ #textarea_editor .aboutus_map_bigcount #aboutUsMapBigCont {
+	 text-align: center;
+	 overflow: hidden;
+	 z-index: 2000;
+	 padding-bottom: 40px;
+	 background-color: #ffffff;
+}
+ #textarea_editor .aboutus_map_bigcount #aboutUsMapTitleCont {
+	 padding: 50px 0 20px;
+	 text-align: center;
+}
+ #textarea_editor .aboutus_map_bigcount #aboutUsMap {
+	 width: 100%;
+	 max-width: 1150px;
+}
+ #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+	 height: 630px;
+	 z-index: 4000;
+	 -ms-overflow-style: none;
+	 scrollbar-width: none;
+}
+ #textarea_editor .aboutus_map_bigcount .tabGroups {
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 display: none;
+	 text-align: left;
+	 z-index: 5000;
+	 overflow: visible;
+}
+ #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+	 margin-bottom: 25px;
+	 margin-right: 25px;
+	 width: 31%;
+	 max-width: 375px;
+	 height: 530px;
+	 overflow: hidden;
+	 border-radius: 6px;
+	 padding: 190px 40px 0;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	 border: 1px solid rgba(0,0,0,0.2);
+	 background-color: #ffffff;
+	 color: #000000;
+	 text-align: left;
+}
+ #textarea_editor .aboutus_map_bigcount #tabGroupAlfa {
+	 display: inline-block;
+}
+ #textarea_editor .aboutus_map_bigcount #homePageMapTabCont {
+	 padding-top: 10px;
+	 padding-bottom: 50px;
+}
+ #textarea_editor .aboutus_map_bigcount .tabDivider {
+	 width: 40px;
+	 height: 2px;
+	 margin: 25px 0;
+	 background-color: #002A8F;
+}
+ #textarea_editor .aboutus_map_bigcount .tabBoxLinks, #textarea_editor .aboutus_map_bigcount .tabGroupButton, #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs, #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs a, #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs ul li {
+	 font-size: 16px;
+	 line-height: 150%;
+	 color: #000000;
+}
+ #textarea_editor .aboutus_map_bigcount ul li {
+	 margin-left: 18px;
+}
+ #textarea_editor .aboutus_map_bigcount .tabBoxLinks, #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+	 color: #000000;
+}
+ #textarea_editor .aboutus_map_bigcount .tabHeader {
+	 color: #002A8F;
+}
+ #textarea_editor .aboutus_map_bigcount .tabGroupButton {
+	 width: 156px;
+	 height: 44px;
+	 color: #ffffff;
+	 font-weight: bold;
+	 text-align: center;
+	 border-radius: 22px;
+	 padding-top: 10px;
+	 background-color: #002A8F;
+	 margin-top: 25px;
+	 cursor: pointer;
+}
+ #textarea_editor .aboutus_map_bigcount .hideMe {
+	 width: 100%;
+	 display: none;
+}
+ #textarea_editor .aboutus_map_bigcount .tabIMGcont {
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 height: 155px;
+	 margin-bottom: 35px;
+	 background-position: 50% 50%;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont01 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103832');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont02 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103833');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont03 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103834');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont04 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103835');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont05 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103836');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont06 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103837');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont07 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103838');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont08 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103839');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont09 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103840');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont10 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103841');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont11 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103837');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont12 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103842');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont13 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103843');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont14 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103844');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont15 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103845');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont16 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103846');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont17 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103847');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont18 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103848');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont19 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103849');
+}
+ #textarea_editor .aboutus_map_bigcount #tabIMGcont20 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103850');
+}
+ #textarea_editor .aboutus_map_bigcount .tabHeaderLineBreakCont {
+	 height: 65px;
+}
+ @media screen and (max-width: 1650px) {
+	 #textarea_editor .aboutus_map_bigcount #aboutUsPadding {
+		 padding: 0 40px;
+	}
+}
+ @media screen and (max-width: 1250px) {
+	 #textarea_editor .aboutus_map_bigcount .murgadoSecondaryMaxWidth {
+		 padding-left: 50px;
+		 padding-right: 50px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #homePageMapSelectionCont {
+		 margin-left: 50px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+		 width: 30%;
+	}
+	 #textarea_editor .aboutus_map_bigcount .wrapMe {
+		 display: inline-block;
+	}
+	 #textarea_editor .aboutus_map_bigcount .hideWrap {
+		 display: none;
+	}
+	 #textarea_editor .aboutus_map_bigcount ul li {
+		 font-size: 14px !important;
+	}
+	 #textarea_editor .aboutus_map_bigcount #fastPass {
+		 height: 55px;
+	}
+}
+ @media screen and (max-width: 1200px) {
+	 #textarea_editor .aboutus_map_bigcount #fastPass {
+		 height: 34px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 height: 570px;
+	}
+}
+ @media screen and (max-width: 1180px) {
+	 #textarea_editor .aboutus_map_bigcount .tabIMGcont {
+		 height: 125px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+		 padding-top: 160px;
+		 height: 500px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #fastPass {
+		 height: 34px;
+	}
+}
+ @media screen and (max-width: 1150px) {
+	 #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+		 padding-left: 25px;
+		 padding-right: 25px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #fastPass {
+		 height: 55px;
+	}
+}
+ @media screen and (max-width: 1080px) {
+	 #textarea_editor .aboutus_map_bigcount #fastPass {
+		 height: 34px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 height: 525px;
+	}
+}
+ @media screen and (max-width: 1050px) {
+	 #textarea_editor .aboutus_map_bigcount .tabBoxLinks, #textarea_editor .aboutus_map_bigcount .tabGroupButton, #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs, #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs a, #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs ul li {
+		 font-size: 14px;
+	}
+	 #textarea_editor .aboutus_map_bigcount h5 {
+		 font-size: 20px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #homePageMapSelectionRedBar {
+		 width: 93px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 padding-top: 140px;
+		 height: 470px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .tabIMGcont {
+		 height: 110px;
+	}
+}
+ @media screen and (max-width: 1000px) {
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 height: 540px;
+	}
+}
+ @media screen and (max-width: 900px) {
+	 #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+		 width: 300px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .tabGroups {
+		 width: 990px;
+		 margin: 0 auto;
+		 padding-left: 15px;
+		 padding-top: 15px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 overflow: visible;
+		 overflow-x: scroll;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont::-webkit-scrollbar {
+		 display: none;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont~ {
+		 -ms-overflow-style: none;
+		 scrollbar-width: none;
+	}
+}
+ @media screen and (max-width: 800px) {
+	 #textarea_editor .aboutus_map_bigcount #aboutUsPadding {
+		 padding: 0 30px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .murgadoSecondaryMaxWidth {
+		 padding-left: 30px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMap {
+		 display: none;
+	}
+}
+ @media screen and (max-width: 650px) {
+	 #textarea_editor .aboutus_map_bigcount h1 {
+		 font-size: 36px;
+	}
+	 #textarea_editor .aboutus_map_bigcount h2 {
+		 font-size: 30px;
+	}
+	 #textarea_editor .aboutus_map_bigcount h3 {
+		 font-size: 24px;
+	}
+	 #textarea_editor .aboutus_map_bigcount h4 {
+		 font-size: 20px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #homePageMapTitleCont {
+		 padding: 40px 0;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 height: 480px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .tabIMGcont {
+		 height: 110px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+		 padding-top: 135px;
+		 height: 445px;
+		 width: 250px;
+		 margin-right: 20px;
+	}
+	 #textarea_editor .aboutus_map_bigcount .tabGroups {
+		 width: 850px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #homePageMapTabCont {
+		 overflow-x: scroll;
+	}
+	 #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
+		 height: 460px;
+		 overflow: visible;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 z-index: 2000;
+		 height: 520px;
+	}
+}
+ @media screen and (max-width: 650px) {
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 height: 510px;
+	}
+}
+ @media screen and (max-width: 450px) {
+	 #textarea_editor .aboutus_map_bigcount #aboutUsPadding {
+		 padding: 0;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapTitleCont {
+		 padding-left: 30px;
+		 padding-right: 30px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #OEMselectionCont {
+		 margin-left: 30px;
+	}
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
+		 margin-left: 15px;
+	}
+}
+ 
