@@ -1,0 +1,333 @@
+#textarea_editor .murgado_timeline * {
+	 padding: 0;
+	 margin: 0;
+	 font-size: 0px;
+	 line-height: 100%;
+	 vertical-align: top;
+	 transition: all 0.3s linear;
+	 text-decoration-color: #ffffff;
+	 text-underline-offset: 3px;
+	 scroll-behavior: smooth;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+ #textarea_editor .murgado_timeline .centerMe {
+	 margin: 0 auto;
+}
+ #textarea_editor .murgado_timeline .MTtext {
+	 color: #000000;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+ #textarea_editor .murgado_timeline .abs {
+	 position: absolute;
+}
+ #textarea_editor .murgado_timeline .rel {
+	 position: relative;
+}
+ #textarea_editor .murgado_timeline .transitionMe {
+	 transition: all 0.5s ease-in-out;
+}
+ #textarea_editor .murgado_timeline .inlineMe {
+	 display: inline-block;
+}
+ #textarea_editor .murgado_timeline .centerAbs {
+	 left: 50%;
+	 transform: translateX(-50%);
+}
+ #textarea_editor .murgado_timeline .pointer {
+	 cursor: pointer;
+}
+ #textarea_editor .murgado_timeline .maxWidth {
+	 width: 100%;
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineBannerMainContainer {
+	 text-align: center;
+	 overflow: hidden;
+	 height: 500px;
+	 background-color: #ffffff;
+}
+ #textarea_editor .murgado_timeline #bannerContainer {
+	 width: 100%;
+	 height: 100%;
+}
+ #textarea_editor .murgado_timeline .murgadoHeroes {
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-position: 50% 50%;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 opacity: 0;
+}
+ #textarea_editor .murgado_timeline #murgadoHero01 {
+	 opacity: 1;
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102917');
+}
+ #textarea_editor .murgado_timeline #murgadoHero02 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102918');
+}
+ #textarea_editor .murgado_timeline #murgadoHero03 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102919');
+}
+ #textarea_editor .murgado_timeline #murgadoHero04 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102923');
+}
+ #textarea_editor .murgado_timeline #murgadoHero05 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102920');
+}
+ #textarea_editor .murgado_timeline #murgadoHero06 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102924');
+}
+ #textarea_editor .murgado_timeline #murgadoHero07 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102921');
+}
+ #textarea_editor .murgado_timeline #murgadoHero08 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102922');
+}
+ #textarea_editor .murgado_timeline .bottomHeroTextCont {
+	 display: none;
+	 transition: all 0.5s ease-in-out;
+}
+ #textarea_editor .murgado_timeline #bottomHeroTextCont01 {
+	 display: inline-block;
+}
+ #textarea_editor .murgado_timeline #bottomHeroTextMainCont {
+	 width: 100%;
+	 text-align: center;
+	 background-color: #ffffff;
+	 padding: 30px 0;
+}
+ #textarea_editor .murgado_timeline #bottomTextwidth {
+	 max-width: 1250px;
+}
+ #textarea_editor .murgado_timeline .bottomHeroTextYear {
+	 font-size: 30px;
+	 font-weight: bold;
+	 text-align: center;
+	 width: 10%;
+	 padding: 5px 30px 0;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+ #textarea_editor .murgado_timeline .bottomHeroCopy {
+	 font-size: 17px;
+	 line-height: 150%;
+	 width: 90%;
+	 text-align: left;
+}
+ #textarea_editor .murgado_timeline #swipeLayer {
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 height: 100%;
+}
+ #textarea_editor .murgado_timeline #bottomCopy2001 {
+	 font-size: 16px;
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIconMainContainer {
+	 text-align: center;
+	 overflow: hidden;
+	 width: 100%;
+	 padding-top: 40px;
+	 padding-bottom: 30px;
+	 background-color: #ffffff;
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIconContTop {
+	 width: 80%;
+	 max-width: 1200px;
+	 height: 100px;
+	 text-align: center;
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: nowrap;
+	 justify-content: space-between;
+	 align-items: flex-start;
+	 transition: all 0.2s linear;
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIconTitle {
+	 font-size: 30px;
+	 padding-top: 18px;
+	 width: 250px;
+	 text-align: left;
+	 font-weight: bold;
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIconCont {
+	 width: 100%;
+	 max-width: 900px;
+	 cursor: pointer;
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: nowrap;
+	 justify-content: space-between;
+	 align-items: flex-start;
+}
+ #textarea_editor .murgado_timeline .murgadoTimelineIcons {
+	 width: 60px;
+	 height: 60px;
+	 -webkit-border-radius: 50%;
+	 -khtml-border-radius: 50%;
+	 -moz-border-radius: 50%;
+	 border-radius: 50%;
+	 background-position: 50% 50%;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+ #textarea_editor .murgado_timeline .murgadoTimelineIconText {
+	 color: #000000;
+	 font-size: 18px;
+	 line-height: 100%;
+	 text-align: center;
+	 width: 100%;
+	 height: 15px;
+	 top: 85px;
+	 left: 0;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon01 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102909');
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon02 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102910');
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon03 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102911');
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon04 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102912');
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon05 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102913');
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon06 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102914');
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon07 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102915');
+}
+ #textarea_editor .murgado_timeline #murgadoTimelineIcon08 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=102916');
+}
+ #textarea_editor .murgado_timeline .redCircles {
+	 border-radius: 50%;
+	 transition: all 0.4s linear;
+}
+ #textarea_editor .murgado_timeline .redCircleClosed {
+	 width: 100%;
+	 height: 100%;
+	 top: 0%;
+	 border: 2px solid rgba(229,57,65,0);
+}
+ #textarea_editor .murgado_timeline .redCircleOpen {
+	 width: 125%;
+	 height: 125%;
+	 top: -13%;
+	 border: 2px solid #CF142B;
+}
+ @media screen and (max-width: 1500px) {
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconContTop {
+		 width: 90%;
+	}
+}
+ @media screen and (max-width: 1300px) {
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconCont {
+		 width: 760px;
+	}
+	 #textarea_editor .murgado_timeline .bottomHeroCopy {
+		 padding-right: 30px;
+	}
+}
+ @media screen and (max-width: 1250px) {
+	 #textarea_editor .murgado_timeline #bottomCopy2001 {
+		 font-size: 15.5px;
+	}
+}
+ @media screen and (max-width: 1200px) {
+	 #textarea_editor .murgado_timeline .murgadoHeroes {
+		 height: 560px;
+	}
+	 #textarea_editor .murgado_timeline #murgadoTimelineBannerMainContainer {
+		 height: 500px;
+	}
+	 #textarea_editor .murgado_timeline .bottomHeroTextYear {
+		 width: 15%;
+	}
+	 #textarea_editor .murgado_timeline .bottomHeroCopy {
+		 width: 85%;
+		 font-size: 16px;
+	}
+}
+ @media screen and (max-width: 1100px) {
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconMainContainer {
+		 padding-bottom: 50px;
+	}
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconContTop {
+		 flex-wrap: wrap;
+		 height: 140px;
+	}
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconTitle {
+		 text-align: center;
+		 padding-top: 0;
+	}
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconTitle, #textarea_editor .murgado_timeline #murgadoTimelineIconCont {
+		 width: 100%;
+	}
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconCont {
+		 max-width: 980px;
+	}
+	 #textarea_editor .murgado_timeline .murgadoHeroes {
+		 height: 560px;
+	}
+}
+ @media screen and (max-width: 800px) {
+	 #textarea_editor .murgado_timeline .murgadoHeroes {
+		 height: 100%;
+	}
+	 #textarea_editor .murgado_timeline .bottomHeroTextYear, #textarea_editor .murgado_timeline .bottomHeroCopy {
+		 width: 100%;
+	}
+	 #textarea_editor .murgado_timeline .bottomHeroCopy {
+		 padding: 30px 40px 0;
+	}
+	 #textarea_editor .murgado_timeline .bottomHeroTextYear {
+		 font-size: 25px;
+	}
+	 #textarea_editor .murgado_timeline #murgadoTimelineIconCont {
+		 width: 800px !important;
+		 position: absolute;
+		 top: 55px;
+		 left: 0;
+	}
+	 #textarea_editor .murgado_timeline .murgadoTimelineIcons {
+		 margin-right: 35px;
+	}
+	 #textarea_editor .murgado_timeline #murgadoTimelineBannerMainContainer {
+		 height: 350px;
+	}
+}
+ @media screen and (max-width: 750px) {
+	 #textarea_editor .murgado_timeline .bottomHeroCopy {
+		 font-size: 15px;
+	}
+}
+ @media screen and (max-width: 500px) {
+	 #textarea_editor .murgado_timeline #murgadoTimelineBannerMainContainer {
+		 height: 250px;
+	}
+}
+ @media screen and (max-width: 450px) {
+	 #textarea_editor .murgado_timeline .bottomHeroCopy {
+		 font-size: 14px;
+	}
+}
+ @media screen and (max-width: 430px) {
+	 #textarea_editor .murgado_timeline #bottomCopy2001 {
+		 font-size: 14px;
+	}
+}
+ @media screen and (max-width: 400px) {
+	 #textarea_editor .murgado_timeline #murgadoTimelineBannerMainContainer {
+		 height: 180px;
+	}
+}
+ 
