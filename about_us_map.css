@@ -144,8 +144,7 @@
 }
  #textarea_editor .aboutus_map_bigcount #aboutUsMapBigCont {
 	 text-align: center;
-	 overflow: hidden;
-	 z-index: 2000;
+	 overflow: hidden;	 
 	 padding-bottom: 40px;
 	 background-color: #ffffff;
 }
@@ -158,8 +157,7 @@
 	 max-width: 1150px;
 }
  #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
-	 height: 630px;
-	 z-index: 4000;
+	 height: 630px;	 
 	 -ms-overflow-style: none;
 	 scrollbar-width: none;
 }
@@ -168,8 +166,7 @@
 	 left: 0px;
 	 width: 100%;
 	 display: none;
-	 text-align: left;
-	 z-index: 5000;
+	 text-align: left;	 
 	 overflow: visible;
 }
  #textarea_editor .aboutus_map_bigcount .aboutUsPageMapTabs {
@@ -465,8 +462,7 @@
 		 height: 460px;
 		 overflow: visible;
 	}
-	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {
-		 z-index: 2000;
+	 #textarea_editor .aboutus_map_bigcount #aboutUsMapIMGCont {		 
 		 height: 520px;
 	}
 }
