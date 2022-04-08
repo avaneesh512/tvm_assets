@@ -1,4 +1,4 @@
-
+window.addEventListener('DOMContentLoaded', (event) => {
 // - - - - - Variables
 let D = document;
 
@@ -481,3 +481,4 @@ murgadoTimelineIconMainContainer.addEventListener('touchend', e => {
     touchendX = e.changedTouches[0].screenX
     handleGesture()
 })
+    });
