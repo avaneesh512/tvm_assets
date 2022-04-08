@@ -1,3 +1,18 @@
+#textarea_editor .aboutus_map_bigcount * {
+	 padding: 0;
+	 margin: 0;
+	 font-size: 0px;
+	 line-height: 100%;
+	 vertical-align: top;
+	 transition: all 0.3s linear;
+	 text-decoration-color: #ffffff;
+	 text-underline-offset: 3px;
+	 scroll-behavior: smooth;
+	 font-family: Arial, Helvetica, sans-serif;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
 #textarea_editor .aboutus_map_bigcount .centerMe {
 	 margin: 0 auto;
 }
@@ -41,19 +56,19 @@
 	 line-height: 120%;
 }
  #textarea_editor .aboutus_map_bigcount h1 {
-	 font-size: 60px;
+	 font-size: 60px !important;
 }
  #textarea_editor .aboutus_map_bigcount h2 {
-	 font-size: 48px;
+	 font-size: 48px !important;
 }
  #textarea_editor .aboutus_map_bigcount h3 {
-	 font-size: 36px;
+	 font-size: 36px !important;
 }
  #textarea_editor .aboutus_map_bigcount h4 {
-	 font-size: 30px;
+	 font-size: 30px !important;
 }
  #textarea_editor .aboutus_map_bigcount h5 {
-	 font-size: 24px;
+	 font-size: 24px !important;
 }
  #textarea_editor .aboutus_map_bigcount .murgadoBlue {
 	 background-color: #002A8F;
