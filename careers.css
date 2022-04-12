@@ -177,7 +177,13 @@
   top: 0px;
   height: 100%;
 }
-#textarea_editor #dealerSelectionRedBar {
+#textarea_editor #miamiSelectionRedBar {
+  width: 250px;
+  height: 4px;
+  left: 0;
+  bottom: -20px;
+}
+#textarea_editor #stuartSelectionRedBar {
   width: 250px;
   height: 4px;
   left: 0;
