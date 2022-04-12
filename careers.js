@@ -5,8 +5,9 @@ const D = document;
 const careerPageSelectionRedBar = D.getElementById('careerPageSelectionRedBar');
 const careerPageMapSelectionScroller = D.getElementById('careerPageMapSelectionScroller');
 
-const miamiSelectionRedBar = D.getElementById('miamiSelectionRedBar');
-const miamiScroll = D.getElementById('miamiScroll');
+//dealer scroll
+const dealerScroll = D.getElementById('dealerScroll');
+const dealerSelectionRedBar = D.getElementById('dealerSelectionRedBar');
 
 const cityMiami = D.getElementById('cityMiami');
 const cityStuart = D.getElementById('cityStuart');
@@ -35,6 +36,19 @@ const hideMiamiCadillac = D.getElementById('hideMiamiCadillac');
 const hideMiamiHonda = D.getElementById('hideMiamiHonda');
 const hideMiamiMazda = D.getElementById('hideMiamiMazda');
 const hideMiamiBrickell = D.getElementById('hideMiamiBrickell');
+
+//stuart locations dealers
+const stuartAll = D.getElementById('stuartAll');
+const stuartAudi = D.getElementById('stuartAudi');
+const stuartInfiniti = D.getElementById('stuartInfiniti');
+const stuartAlfa = D.getElementById('stuartAlfa');
+const stuartMaserati = D.getElementById('stuartMaserati');
+
+const hideStuartAll = D.getElementById('hideStuartAll');
+const hideStuartAudi = D.getElementById('hideStuartAudi');
+const hideStuartInfiniti = D.getElementById('hideStuartInfiniti');
+const hideStuartAlfa = D.getElementById('hideStuartAlfa');
+const hideStuartMaserati = D.getElementById('hideStuartMaserati');
 
 let cityMQ = window.matchMedia('(max-width: 1050px)');
 
@@ -126,8 +140,8 @@ function edisonSelected() {
 
 //miami dealers functions
 function miamiAllSelected() {
-  miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '0px';
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '0px';
 
   hideMiamiAll.style.display = 'inline-block';
   hideMiamiGmc.style.display = 'none';
@@ -137,8 +151,8 @@ function miamiAllSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiGmcSelected() {
-  miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '260px';
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '260px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'inline-block';
@@ -148,8 +162,8 @@ function miamiGmcSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiCadillacSelected() {
-  miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '520px';
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '520px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -159,8 +173,8 @@ function miamiCadillacSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiHondaSelected() {
-  miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '770px';
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '770px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -170,8 +184,8 @@ function miamiHondaSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiMazdaSelected() {
-  miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '1080px';
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '1080px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -181,8 +195,8 @@ function miamiMazdaSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiBrickellSelected() {
-  miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '1290px';
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '1290px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -190,6 +204,58 @@ function miamiBrickellSelected() {
   hideMiamiHonda.style.display = 'none';
   hideMiamiMazda.style.display = 'none';
   hideMiamiBrickell.style.display = 'inline-block';
+}
+
+//stuart dealers functions
+function stuartAllSelected() {
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '0px';
+
+  hideStuartAll.style.display = 'inline-block';
+  hideStuartAudi.style.display = 'none';
+  hideStuartInfiniti.style.display = 'none';
+  hideStuartAlfa.style.display = 'none';
+  hideStuartMaserati.style.display = 'none';
+}
+function stuartAudiSelected() {
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '260px';
+
+  hideStuartAll.style.display = 'none';
+  hideStuartAudi.style.display = 'inline-block';
+  hideStuartInfiniti.style.display = 'none';
+  hideStuartAlfa.style.display = 'none';
+  hideStuartMaserati.style.display = 'none';
+}
+function stuartInfinitiSelected() {
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '520px';
+
+  hideStuartAll.style.display = 'none';
+  hideStuartAudi.style.display = 'none';
+  hideStuartInfiniti.style.display = 'inline-block';
+  hideStuartAlfa.style.display = 'none';
+  hideStuartMaserati.style.display = 'none';
+}
+function stuartAlfaSelected() {
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '770px';
+
+  hideStuartAll.style.display = 'none';
+  hideStuartAudi.style.display = 'none';
+  hideStuartInfiniti.style.display = 'none';
+  hideStuartAlfa.style.display = 'inline-block';
+  hideStuartMaserati.style.display = 'none';
+}
+function stuartMaseratiSelected() {
+  dealerSelectionRedBar.style.width = '250px';
+  dealerSelectionRedBar.style.left = '1080px';
+
+  hideStuartAll.style.display = 'none';
+  hideStuartAudi.style.display = 'none';
+  hideStuartInfiniti.style.display = 'none';
+  hideStuartAlfa.style.display = 'none';
+  hideStuartMaserati.style.display = 'inline-block';
 }
 
 var selectedLocation = 'miami';
@@ -240,6 +306,23 @@ miamiBrickell.addEventListener('click', () => {
   miamiBrickellSelected();
 });
 
+//stuart dealers
+stuartAll.addEventListener('click', () => {
+  stuartAllSelected();
+});
+stuartAudi.addEventListener('click', () => {
+  stuartAudiSelected();
+});
+stuartInfiniti.addEventListener('click', () => {
+  stuartInfinitiSelected();
+});
+stuartAlfa.addEventListener('click', () => {
+  stuartAlfaSelected();
+});
+stuartMaserati.addEventListener('click', () => {
+  stuartMaseratiSelected();
+});
+
 // var location = {
 //   miami: {
 //     tabs: [
@@ -284,6 +367,7 @@ miamiBrickell.addEventListener('click', () => {
 //     ]
 //   }
 // };
+
 
 
 });
