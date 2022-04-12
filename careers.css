@@ -138,22 +138,32 @@
 	 left: 0;
 	 bottom: -20px;
 }
- #textarea_editor .tabs-list {
+#textarea_editor .tabs-list {
 	 display: flex;
 }
  #textarea_editor .tab-card {
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
-	 box-shadow: 0px 0px 5px #000000;
+	 box-shadow: 0px 0px 5px #ccc;
 	 max-width: 250px;
 	 border: 1px solid rgba(0,0,0,0.2);
 	 margin: 0px 10px 0px 0px;
+	 cursor: pointer;
 }
  #textarea_editor .position-ul {
 	 padding-left: 0px;
 	 list-style: none;
+	 width: 50%;
 }
+ #textarea_editor .position-ul li {
+	 border-top: 1px solid #ccc;
+	 margin: 0px;
+}
+ #textarea_editor .position-ul:last-child {
+	 border-bottom: 1px solid #ccc;
+}
+ 
  #textarea_editor #homePageMapTabCont {
 	 padding-top: 10px;
 	 padding-bottom: 50px;
