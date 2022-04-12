@@ -106,7 +106,7 @@
 	 max-width: 1600px;
 }
  #textarea_editor #careerPageTitleCont {
-	 padding: 100px 0 20px;
+	 padding: 40px 0 20px;
 	 text-align: left;
 }
  #textarea_editor .pageSubHeading {
@@ -138,7 +138,7 @@
 	 left: 0;
 	 bottom: -20px;
 }
-#textarea_editor .tabs-list {
+ #textarea_editor .tabs-list {
 	 display: flex;
 }
  #textarea_editor .tab-card {
@@ -163,7 +163,20 @@
  #textarea_editor .position-ul:last-child {
 	 border-bottom: 1px solid #ccc;
 }
- 
+ #textarea_editor #miamiScroll {
+	 left: 0px;
+	 top: 0px;
+	 height: 100%;
+}
+ #textarea_editor #miamiSelectionRedBar {
+	 width: 250px;
+	 height: 4px;
+	 left: 0;
+	 bottom: -20px;
+}
+ #textarea_editor #hideMiamiAll {
+	 display: inline-block;
+}
  #textarea_editor #homePageMapTabCont {
 	 padding-top: 10px;
 	 padding-bottom: 50px;
@@ -407,9 +420,6 @@
 	}
 	 #textarea_editor h4 {
 		 font-size: 20px;
-	}
-	 #textarea_editor #careerPageTitleCont {
-		 padding: 40px 0;
 	}
 	 #textarea_editor .murgadoSecondaryMaxWidth, #textarea_editor #LogoAnimationBigCont {
 		 padding-left: 20px;
