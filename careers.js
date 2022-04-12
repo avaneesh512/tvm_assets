@@ -5,6 +5,9 @@ const D = document;
 const careerPageSelectionRedBar = D.getElementById('careerPageSelectionRedBar');
 const careerPageMapSelectionScroller = D.getElementById('careerPageMapSelectionScroller');
 
+const miamiSelectionRedBar = D.getElementById('miamiSelectionRedBar');
+const miamiScroll = D.getElementById('miamiScroll');
+
 const cityMiami = D.getElementById('cityMiami');
 const cityStuart = D.getElementById('cityStuart');
 const cityJackson = D.getElementById('cityJackson');
@@ -16,6 +19,22 @@ const hideStuart = D.getElementById('hideStuart');
 const hideJackson = D.getElementById('hideJackson');
 const hideChicago = D.getElementById('hideChicago');
 const hideEdison = D.getElementById('hideEdison');
+
+//dealers for each location and view positions variables
+//miami location dealers
+const miamiAll = D.getElementById('miamiAll');
+const miamiGmc = D.getElementById('miamiGmc');
+const miamiCadillac = D.getElementById('miamiCadillac');
+const miamiHonda = D.getElementById('miamiHonda');
+const miamiMazda = D.getElementById('miamiMazda');
+const miamiBrickell = D.getElementById('miamiBrickell');
+
+const hideMiamiAll = D.getElementById('hideMiamiAll');
+const hideMiamiGmc = D.getElementById('hideMiamiGmc');
+const hideMiamiCadillac = D.getElementById('hideMiamiCadillac');
+const hideMiamiHonda = D.getElementById('hideMiamiHonda');
+const hideMiamiMazda = D.getElementById('hideMiamiMazda');
+const hideMiamiBrickell = D.getElementById('hideMiamiBrickell');
 
 let cityMQ = window.matchMedia('(max-width: 1050px)');
 
@@ -105,6 +124,74 @@ function edisonSelected() {
   }
 }
 
+//miami dealers functions
+function miamiAllSelected() {
+  miamiSelectionRedBar.style.width = '250px';
+  miamiScroll.style.left = '0px';
+
+  hideMiamiAll.style.display = 'inline-block';
+  hideMiamiGmc.style.display = 'none';
+  hideMiamiCadillac.style.display = 'none';
+  hideMiamiHonda.style.display = 'none';
+  hideMiamiMazda.style.display = 'none';
+  hideMiamiBrickell.style.display = 'none';
+}
+function miamiGmcSelected() {
+  miamiSelectionRedBar.style.width = '250px';
+  miamiScroll.style.left = '510px';
+
+  hideMiamiAll.style.display = 'none';
+  hideMiamiGmc.style.display = 'inline-block';
+  hideMiamiCadillac.style.display = 'none';
+  hideMiamiHonda.style.display = 'none';
+  hideMiamiMazda.style.display = 'none';
+  hideMiamiBrickell.style.display = 'none';
+}
+function miamiAllSelected() {
+  miamiSelectionRedBar.style.width = '250px';
+  miamiScroll.style.left = '770px';
+
+  hideMiamiAll.style.display = 'none';
+  hideMiamiGmc.style.display = 'none';
+  hideMiamiCadillac.style.display = 'inline-block';
+  hideMiamiHonda.style.display = 'none';
+  hideMiamiMazda.style.display = 'none';
+  hideMiamiBrickell.style.display = 'none';
+}
+function miamiAllSelected() {
+  miamiSelectionRedBar.style.width = '250px';
+  miamiScroll.style.left = '1030px';
+
+  hideMiamiAll.style.display = 'none';
+  hideMiamiGmc.style.display = 'none';
+  hideMiamiCadillac.style.display = 'none';
+  hideMiamiHonda.style.display = 'inline-block';
+  hideMiamiMazda.style.display = 'none';
+  hideMiamiBrickell.style.display = 'none';
+}
+function miamiAllSelected() {
+  miamiSelectionRedBar.style.width = '250px';
+  miamiScroll.style.left = '1290px';
+
+  hideMiamiAll.style.display = 'none';
+  hideMiamiGmc.style.display = 'none';
+  hideMiamiCadillac.style.display = 'none';
+  hideMiamiHonda.style.display = 'none';
+  hideMiamiMazda.style.display = 'inline-block';
+  hideMiamiBrickell.style.display = 'none';
+}
+function miamiAllSelected() {
+  miamiSelectionRedBar.style.width = '250px';
+  miamiScroll.style.left = '1600px';
+
+  hideMiamiAll.style.display = 'none';
+  hideMiamiGmc.style.display = 'none';
+  hideMiamiCadillac.style.display = 'none';
+  hideMiamiHonda.style.display = 'none';
+  hideMiamiMazda.style.display = 'none';
+  hideMiamiBrickell.style.display = 'inline-block';
+}
+
 var selectedLocation = 'miami';
 
 // - - - - - Events
@@ -131,6 +218,26 @@ cityChicago.addEventListener('click', () => {
 cityEdison.addEventListener('click', () => {
   edisonSelected();
   selectedLocation = 'edison';
+});
+
+//miami dealers
+miamiAll.addEventListener('click', () => {
+  miamiAllSelected();
+});
+miamiGmc.addEventListener('click', () => {
+  miamiGmcSelected();
+});
+miamiCadillac.addEventListener('click', () => {
+  miamiCadillacSelected();
+});
+miamiHonda.addEventListener('click', () => {
+  miamiHondaSelected();
+});
+miamiMazda.addEventListener('click', () => {
+  miamiMazdaSelected();
+});
+miamiBrickell.addEventListener('click', () => {
+  miamiBrickellSelected();
 });
 
 // var location = {
