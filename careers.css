@@ -1,0 +1,431 @@
+.textarea_editor * {
+	 padding: 0;
+	 margin: 0;
+	 font-size: 0px;
+	 line-height: 100%;
+	 vertical-align: top;
+	 transition: all 0.3s linear;
+	 text-decoration-color: #ffffff;
+	 text-underline-offset: 3px;
+	 scroll-behavior: smooth;
+	 font-family: Arial, Helvetica, sans-serif;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+ .textarea_editor .ft-16 {
+	 font-size: 16px;
+}
+ .textarea_editor .centerMe {
+	 margin: 0 auto;
+}
+ .textarea_editor .abs {
+	 position: absolute;
+}
+ .textarea_editor .rel {
+	 position: relative;
+}
+ .textarea_editor .inlineMe {
+	 display: inline-block;
+}
+ .textarea_editor .centerAbs {
+	 left: 50%;
+	 transform: translateX(-50%);
+}
+ .textarea_editor .leftAlign {
+	 text-align: left;
+}
+ .textarea_editor .pointer {
+	 cursor: pointer;
+}
+ .textarea_editor .murgadoMaxWidth {
+	 max-width: 1600px;
+}
+ .textarea_editor .murgadoSecondaryMaxWidth {
+	 max-width: 1600px;
+}
+ .textarea_editor .maxWidth, .textarea_editor .murgadoMaxWidth, .textarea_editor .murgadoSecondaryMaxWidth {
+	 width: 100%;
+}
+ .textarea_editor a {
+	 text-decoration: none;
+}
+ .textarea_editor a[x-apple-data-detectors='true'] {
+	 color: inherit !important;
+	 text-decoration: inherit !important;
+}
+ .textarea_editor h1, .textarea_editor h2, .textarea_editor h3, .textarea_editor h4, .textarea_editor h5 {
+	 color: #000000;
+	 line-height: 120%;
+}
+ .textarea_editor h1 {
+	 font-size: 60px;
+}
+ .textarea_editor h2 {
+	 font-size: 48px;
+}
+ .textarea_editor h3 {
+	 font-size: 36px;
+}
+ .textarea_editor h4 {
+	 font-size: 30px;
+}
+ .textarea_editor h5 {
+	 font-size: 24px;
+}
+ .textarea_editor p {
+	 font-size: 16px;
+}
+ .textarea_editor .murgadoBlue {
+	 background-color: #2a3886;
+}
+ .textarea_editor .murgadoRed {
+	 background-color: #e53941;
+}
+ .textarea_editor .spacer10 {
+	 height: 10px;
+}
+ .textarea_editor .spacer20 {
+	 height: 20px;
+}
+ .textarea_editor .spacer30 {
+	 height: 30px;
+}
+ .textarea_editor .spacer40 {
+	 height: 40px;
+}
+ .textarea_editor .spacer10, .textarea_editor .spacer20, .textarea_editor .spacer30, .textarea_editor .spacer40 {
+	 width: 100%;
+}
+ .textarea_editor #careers-page {
+	 text-align: center;
+	 overflow: hidden;
+	 background-color: #ffffff;
+}
+ .textarea_editor .careerPageCont {
+	 max-width: 1600px;
+}
+ .textarea_editor #careerPageTitleCont {
+	 padding: 100px 0 20px;
+	 text-align: left;
+}
+ .textarea_editor .pageSubHeading {
+	 line-height: 2;
+	 max-width: 1200px;
+}
+ .textarea_editor #homePageMap {
+	 width: 100%;
+}
+ .textarea_editor #careerPageMapSelectionCont {
+	 margin: 30px auto;
+	 min-height: 300px;
+}
+ .textarea_editor #careerPageMapSelectionScroller {
+	 left: 0px;
+	 top: 0px;
+	 height: 100%;
+}
+ .textarea_editor .citySelectionCont {
+	 top: 0;
+	 text-align: left;
+	 padding-left: 0;
+	 min-height: 300px;
+	 margin: 0px 10px 0px 0px;
+}
+ .textarea_editor #careerPageSelectionRedBar {
+	 width: 302px;
+	 height: 4px;
+	 left: 0;
+	 bottom: -20px;
+}
+ .textarea_editor .tabs-list {
+	 display: flex;
+}
+ .textarea_editor .tab-card {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 box-shadow: 0px 0px 5px #000000;
+	 max-width: 250px;
+	 border: 1px solid rgba(0,0,0,0.2);
+	 margin: 0px 10px 0px 0px;
+}
+ .textarea_editor .position-ul {
+	 padding-left: 0px;
+	 list-style: none;
+}
+ .textarea_editor #homePageMapTabCont {
+	 padding-top: 10px;
+	 padding-bottom: 50px;
+}
+ .textarea_editor .tabGroups {
+	 width: 100%;
+	 display: inline-block;
+	 text-align: left;
+}
+ .textarea_editor .homePageMapTabs {
+	 margin-bottom: 25px;
+	 margin-right: 25px;
+	 width: 31%;
+	 height: 530px;
+	 overflow: hidden;
+	 border-radius: 6px;
+	 padding: 190px 40px 0;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.16);
+	 color: #000000;
+	 text-align: left;
+}
+ .textarea_editor .tabDivider {
+	 width: 40px;
+	 height: 2px;
+	 margin: 25px 0;
+	 background-color: #2a3886;
+}
+ .textarea_editor .tabBoxLinks, .textarea_editor .tabGroupButton, .textarea_editor .homePageMapTabs, .textarea_editor .homePageMapTabs a, .textarea_editor .homePageMapTabs ul li {
+	 font-size: 16px;
+	 line-height: 150%;
+	 color: #000000;
+}
+ .textarea_editor ul li {
+	 margin-left: 18px;
+}
+ .textarea_editor .tabBoxLinks, .textarea_editor .homePageMapTabs {
+	 color: #000000;
+}
+ .textarea_editor .tabHeader {
+	 color: #2a3886;
+}
+ .textarea_editor .tabGroupButton {
+	 width: 156px;
+	 height: 44px;
+	 color: #ffffff;
+	 font-weight: bold;
+	 text-align: center;
+	 border-radius: 22px;
+	 padding-top: 10px;
+	 background-color: #2a3886;
+	 margin-top: 25px;
+	 cursor: pointer;
+}
+ .textarea_editor .hideMe {
+	 width: 100%;
+	 display: none;
+}
+ .textarea_editor #hideMiami {
+	 display: inline-block;
+}
+ .textarea_editor .tabIMGcont {
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 height: 155px;
+	 margin-bottom: 35px;
+	 background-position: 50% 50%;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+}
+ .textarea_editor #tabIMGcont01 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103832');
+}
+ .textarea_editor #tabIMGcont02 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103833');
+}
+ .textarea_editor #tabIMGcont03 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103834');
+}
+ .textarea_editor #tabIMGcont04 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103835');
+}
+ .textarea_editor #tabIMGcont05 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103836');
+}
+ .textarea_editor #tabIMGcont06 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103837');
+}
+ .textarea_editor #tabIMGcont07 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103838');
+}
+ .textarea_editor #tabIMGcont08 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103839');
+}
+ .textarea_editor #tabIMGcont09 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103840');
+}
+ .textarea_editor #tabIMGcont10 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103841');
+}
+ .textarea_editor #tabIMGcont11 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103837');
+}
+ .textarea_editor #tabIMGcont12 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103842');
+}
+ .textarea_editor #tabIMGcont13 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103843');
+}
+ .textarea_editor #tabIMGcont14 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103844');
+}
+ .textarea_editor #tabIMGcont15 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103845');
+}
+ .textarea_editor #tabIMGcont16 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103846');
+}
+ .textarea_editor #tabIMGcont17 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103847');
+}
+ .textarea_editor #tabIMGcont18 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103848');
+}
+ .textarea_editor #tabIMGcont19 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103849');
+}
+ .textarea_editor #tabIMGcont20 {
+	 background-image: url('https://service.secureoffersites.com/images/GetLibraryImage?fileNameOrId=103850');
+}
+ .textarea_editor .tabHeaderLineBreakCont {
+	 height: 65px;
+}
+ .textarea_editor #fastPass {
+	 height: 43px;
+}
+ @media screen and (max-width: 1250px) {
+	 .textarea_editor .murgadoSecondaryMaxWidth {
+		 padding-left: 50px;
+		 padding-right: 50px;
+	}
+	 .textarea_editor #careerPageMapSelectionCont {
+		 margin-left: 50px;
+	}
+	 .textarea_editor .homePageMapTabs {
+		 width: 30%;
+	}
+	 .textarea_editor .wrapMe {
+		 display: inline-block;
+	}
+	 .textarea_editor .hideWrap {
+		 display: none;
+	}
+	 .textarea_editor ul li {
+		 font-size: 14px !important;
+	}
+	 .textarea_editor #fastPass {
+		 height: 55px;
+	}
+}
+ @media screen and (max-width: 1200px) {
+	 .textarea_editor #fastPass {
+		 height: 34px;
+	}
+}
+ @media screen and (max-width: 1180px) {
+	 .textarea_editor .tabIMGcont {
+		 height: 125px;
+	}
+	 .textarea_editor .homePageMapTabs {
+		 padding-top: 160px;
+		 height: 500px;
+	}
+	 .textarea_editor #fastPass {
+		 height: 34px;
+	}
+}
+ @media screen and (max-width: 1150px) {
+	 .textarea_editor .homePageMapTabs {
+		 padding-left: 25px;
+		 padding-right: 25px;
+	}
+	 .textarea_editor #fastPass {
+		 height: 55px;
+	}
+}
+ @media screen and (max-width: 1080px) {
+	 .textarea_editor #fastPass {
+		 height: 34px;
+	}
+}
+ @media screen and (max-width: 1050px) {
+	 .textarea_editor .tabBoxLinks, .textarea_editor .tabGroupButton, .textarea_editor .homePageMapTabs, .textarea_editor .homePageMapTabs a, .textarea_editor .homePageMapTabs ul li {
+		 font-size: 14px;
+	}
+	 .textarea_editor h5 {
+		 font-size: 20px;
+	}
+	 .textarea_editor #careerPageSelectionRedBar {
+		 width: 302px;
+	}
+	 .textarea_editor .homePageMapTabs {
+		 padding-left: 20px;
+		 padding-right: 20px;
+		 padding-top: 140px;
+		 height: 470px;
+	}
+	 .textarea_editor .tabIMGcont {
+		 height: 110px;
+	}
+}
+ @media screen and (max-width: 900px) {
+	 .textarea_editor .homePageMapTabs {
+		 width: 46%;
+	}
+	 .textarea_editor .tabGroups {
+		 width: 90%;
+		 margin: 0 auto;
+	}
+}
+ @media screen and (max-width: 800px) {
+	 .textarea_editor #homePageMapIMGCont {
+		 display: none;
+	}
+	 .textarea_editor .homePageMapTabs {
+		 width: 45%;
+	}
+	 .textarea_editor .tabGroups {
+		 width: 100%;
+	}
+}
+ @media screen and (max-width: 650px) {
+	 .textarea_editor h1 {
+		 font-size: 36px;
+	}
+	 .textarea_editor h2 {
+		 font-size: 30px;
+	}
+	 .textarea_editor h3 {
+		 font-size: 24px;
+	}
+	 .textarea_editor h4 {
+		 font-size: 20px;
+	}
+	 .textarea_editor #careerPageTitleCont {
+		 padding: 40px 0;
+	}
+	 .textarea_editor .murgadoSecondaryMaxWidth, .textarea_editor #LogoAnimationBigCont {
+		 padding-left: 20px;
+		 padding-right: 0;
+	}
+	 .textarea_editor #careerPageMapSelectionCont {
+		 margin-left: 20px;
+		 margin-top: 10px;
+	}
+	 .textarea_editor .tabIMGcont {
+		 height: 110px;
+	}
+	 .textarea_editor .homePageMapTabs {
+		 padding-top: 135px;
+		 height: 445px;
+		 width: 250px;
+		 margin-right: 20px;
+	}
+	 .textarea_editor .tabGroups {
+		 width: 1640px;
+	}
+	 .textarea_editor #homePageMapTabCont {
+		 overflow-x: scroll;
+	}
+	 .textarea_editor .homePageMapTabs {
+		 height: 460px;
+	}
+}
+ 
