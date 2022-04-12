@@ -127,7 +127,7 @@ function edisonSelected() {
 //miami dealers functions
 function miamiAllSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiScroll.style.left = '0px';
+  miamiSelectionRedBar.style.left = '0px';
 
   hideMiamiAll.style.display = 'inline-block';
   hideMiamiGmc.style.display = 'none';
@@ -138,7 +138,7 @@ function miamiAllSelected() {
 }
 function miamiGmcSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiScroll.style.left = '510px';
+  miamiSelectionRedBar.style.left = '260px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'inline-block';
@@ -147,9 +147,9 @@ function miamiGmcSelected() {
   hideMiamiMazda.style.display = 'none';
   hideMiamiBrickell.style.display = 'none';
 }
-function miamiAllSelected() {
+function miamiCadillac() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiScroll.style.left = '770px';
+  miamiSelectionRedBar.style.left = '520px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -158,9 +158,9 @@ function miamiAllSelected() {
   hideMiamiMazda.style.display = 'none';
   hideMiamiBrickell.style.display = 'none';
 }
-function miamiAllSelected() {
+function miamiHondaSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiScroll.style.left = '1030px';
+  miamiSelectionRedBar.style.left = '770px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -169,9 +169,9 @@ function miamiAllSelected() {
   hideMiamiMazda.style.display = 'none';
   hideMiamiBrickell.style.display = 'none';
 }
-function miamiAllSelected() {
+function miamiMazdaSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiScroll.style.left = '1290px';
+  miamiSelectionRedBar.style.left = '1080px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -180,9 +180,9 @@ function miamiAllSelected() {
   hideMiamiMazda.style.display = 'inline-block';
   hideMiamiBrickell.style.display = 'none';
 }
-function miamiAllSelected() {
+function miamiBrickellSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiScroll.style.left = '1600px';
+  miamiSelectionRedBar.style.left = '1290px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -284,6 +284,7 @@ miamiBrickell.addEventListener('click', () => {
 //     ]
 //   }
 // };
+
 
 
 });
