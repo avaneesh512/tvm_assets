@@ -147,7 +147,7 @@ function miamiGmcSelected() {
   hideMiamiMazda.style.display = 'none';
   hideMiamiBrickell.style.display = 'none';
 }
-function miamiCadillac() {
+function miamiCadillacSelected() {
   miamiSelectionRedBar.style.width = '250px';
   miamiSelectionRedBar.style.left = '520px';
 
@@ -284,7 +284,6 @@ miamiBrickell.addEventListener('click', () => {
 //     ]
 //   }
 // };
-
 
 
 });
