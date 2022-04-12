@@ -7,7 +7,8 @@ const careerPageMapSelectionScroller = D.getElementById('careerPageMapSelectionS
 
 //dealer scroll
 const dealerScroll = D.getElementById('dealerScroll');
-const dealerSelectionRedBar = D.getElementById('dealerSelectionRedBar');
+const miamiSelectionRedBar = D.getElementById('miamiSelectionRedBar');
+const stuartSelectionRedBar = D.getElementById('stuartSelectionRedBar');
 
 const cityMiami = D.getElementById('cityMiami');
 const cityStuart = D.getElementById('cityStuart');
@@ -140,8 +141,8 @@ function edisonSelected() {
 
 //miami dealers functions
 function miamiAllSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '0px';
+  miamiSelectionRedBar.style.width = '250px';
+  miamiSelectionRedBar.style.left = '0px';
 
   hideMiamiAll.style.display = 'inline-block';
   hideMiamiGmc.style.display = 'none';
@@ -151,8 +152,8 @@ function miamiAllSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiGmcSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '260px';
+  miamiSelectionRedBar.style.width = '250px';
+  miamiSelectionRedBar.style.left = '260px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'inline-block';
@@ -162,8 +163,8 @@ function miamiGmcSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiCadillacSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '520px';
+  miamiSelectionRedBar.style.width = '250px';
+  miamiSelectionRedBar.style.left = '520px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -173,8 +174,8 @@ function miamiCadillacSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiHondaSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '770px';
+  miamiSelectionRedBar.style.width = '250px';
+  miamiSelectionRedBar.style.left = '770px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -184,8 +185,8 @@ function miamiHondaSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiMazdaSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '1080px';
+  miamiSelectionRedBar.style.width = '250px';
+  miamiSelectionRedBar.style.left = '1080px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -195,8 +196,8 @@ function miamiMazdaSelected() {
   hideMiamiBrickell.style.display = 'none';
 }
 function miamiBrickellSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '1290px';
+  miamiSelectionRedBar.style.width = '250px';
+  miamiSelectionRedBar.style.left = '1290px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -208,8 +209,8 @@ function miamiBrickellSelected() {
 
 //stuart dealers functions
 function stuartAllSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '0px';
+  stuartSelectionRedBar.style.width = '250px';
+  stuartSelectionRedBar.style.left = '0px';
 
   hideStuartAll.style.display = 'inline-block';
   hideStuartAudi.style.display = 'none';
@@ -218,8 +219,8 @@ function stuartAllSelected() {
   hideStuartMaserati.style.display = 'none';
 }
 function stuartAudiSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '260px';
+  stuartSelectionRedBar.style.width = '250px';
+  stuartSelectionRedBar.style.left = '260px';
 
   hideStuartAll.style.display = 'none';
   hideStuartAudi.style.display = 'inline-block';
@@ -228,8 +229,8 @@ function stuartAudiSelected() {
   hideStuartMaserati.style.display = 'none';
 }
 function stuartInfinitiSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '520px';
+  stuartSelectionRedBar.style.width = '250px';
+  stuartSelectionRedBar.style.left = '520px';
 
   hideStuartAll.style.display = 'none';
   hideStuartAudi.style.display = 'none';
@@ -238,8 +239,8 @@ function stuartInfinitiSelected() {
   hideStuartMaserati.style.display = 'none';
 }
 function stuartAlfaSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '770px';
+  stuartSelectionRedBar.style.width = '250px';
+  stuartSelectionRedBar.style.left = '770px';
 
   hideStuartAll.style.display = 'none';
   hideStuartAudi.style.display = 'none';
@@ -248,8 +249,8 @@ function stuartAlfaSelected() {
   hideStuartMaserati.style.display = 'none';
 }
 function stuartMaseratiSelected() {
-  dealerSelectionRedBar.style.width = '250px';
-  dealerSelectionRedBar.style.left = '1080px';
+  stuartSelectionRedBar.style.width = '250px';
+  stuartSelectionRedBar.style.left = '1080px';
 
   hideStuartAll.style.display = 'none';
   hideStuartAudi.style.display = 'none';
@@ -367,6 +368,7 @@ stuartMaserati.addEventListener('click', () => {
 //     ]
 //   }
 // };
+
 
 
 
