@@ -350,7 +350,7 @@ function chicagoHondaSelected() {
 }
 function chicagoVolksSelected() {
   chicagoSelectionRedBar.style.width = '250px';
-  chicagoSelectionRedBar.style.left = '780px';
+  chicagoSelectionRedBar.style.left = '520px';
 
   hideChicagoAll.style.display = 'none';
   hideChicagoHonda.style.display = 'none';
