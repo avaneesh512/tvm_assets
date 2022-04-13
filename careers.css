@@ -214,6 +214,15 @@
 #textarea_editor #hideStuartAll {
   display: inline-block;
 }
+#textarea_editor #hideJacksonAll {
+  display: inline-block;
+}
+#textarea_editor #hideChicagoAll {
+  display: inline-block;
+}
+#textarea_editor #hideEdisonAll {
+  display: inline-block;
+}
 #textarea_editor #homePageMapTabCont {
   padding-top: 10px;
   padding-bottom: 50px;
