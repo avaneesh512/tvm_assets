@@ -117,7 +117,7 @@ function stuartSelected() {
 
   if (cityMQ.matches) {
     careerPageSelectionRedBar.style.left = '312px';
-    careerPageMapSelectionScroller.style.left = '0px';
+    careerPageMapSelectionScroller.style.left = '-302px';
     careerPageSelectionRedBar.style.width = '302px';
   }
 }
@@ -134,7 +134,7 @@ function jacksonSelected() {
 
   if (cityMQ.matches) {
     careerPageSelectionRedBar.style.left = '624px';
-    careerPageMapSelectionScroller.style.left = '-312px';
+    careerPageMapSelectionScroller.style.left = '-302px';
     careerPageSelectionRedBar.style.width = '302px';
   }
 }
@@ -151,7 +151,7 @@ function chicagoSelected() {
 
   if (cityMQ.matches) {
     careerPageSelectionRedBar.style.left = '936px';
-    careerPageMapSelectionScroller.style.left = '-624px';
+    careerPageMapSelectionScroller.style.left = '-302px';
     careerPageSelectionRedBar.style.width = '302px';
   }
 }
@@ -491,9 +491,6 @@ edisonBentley.addEventListener('click', () => {
 edisonMaserati.addEventListener('click', () => {
   edisonMaseratiSelected();
 });
-
-
-
 
 
 });
