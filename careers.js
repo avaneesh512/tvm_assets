@@ -287,6 +287,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideStuartInfiniti.style.display = 'none';
     hideStuartAlfa.style.display = 'none';
     hideStuartMaserati.style.display = 'none';
+    if (cityMQ.matches) {
+      stuartSelectionRedBar.style.left = '0px';
+      stuartScroll.style.left = '0px';
+      stuartSelectionRedBar.style.width = '250px';
+    }
   }
   function stuartAudiSelected() {
     stuartSelectionRedBar.style.width = '250px';
@@ -297,6 +302,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideStuartInfiniti.style.display = 'none';
     hideStuartAlfa.style.display = 'none';
     hideStuartMaserati.style.display = 'none';
+    if (cityMQ.matches) {
+      stuartSelectionRedBar.style.left = '260px';
+      stuartScroll.style.left = '-200px';
+      stuartSelectionRedBar.style.width = '250px';
+    }
   }
   function stuartInfinitiSelected() {
     stuartSelectionRedBar.style.width = '250px';
@@ -307,6 +317,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideStuartInfiniti.style.display = 'inline-block';
     hideStuartAlfa.style.display = 'none';
     hideStuartMaserati.style.display = 'none';
+    if (cityMQ.matches) {
+      stuartSelectionRedBar.style.left = '520px';
+      stuartScroll.style.left = '-450px';
+      stuartSelectionRedBar.style.width = '250px';
+    }
   }
   function stuartAlfaSelected() {
     stuartSelectionRedBar.style.width = '250px';
@@ -317,6 +332,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideStuartInfiniti.style.display = 'none';
     hideStuartAlfa.style.display = 'inline-block';
     hideStuartMaserati.style.display = 'none';
+    if (cityMQ.matches) {
+      stuartSelectionRedBar.style.left = '780px';
+      stuartScroll.style.left = '-700px';
+      stuartSelectionRedBar.style.width = '250px';
+    }
   }
   function stuartMaseratiSelected() {
     stuartSelectionRedBar.style.width = '250px';
@@ -327,6 +347,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideStuartInfiniti.style.display = 'none';
     hideStuartAlfa.style.display = 'none';
     hideStuartMaserati.style.display = 'inline-block';
+    if (cityMQ.matches) {
+      stuartSelectionRedBar.style.left = '1040px';
+      stuartScroll.style.left = '-960px';
+      stuartSelectionRedBar.style.width = '250px';
+    }
   }
 
   //jackson dealers functions
@@ -338,6 +363,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideJacksonBentley.style.display = 'none';
     hideJacksonMaserati.style.display = 'none';
     hideJacksonAlfa.style.display = 'none';
+
+    if (cityMQ.matches) {
+      jacksonSelectionRedBar.style.left = '0px';
+      jacksonScroll.style.left = '0px';
+      jacksonSelectionRedBar.style.width = '250px';
+    }
   }
   function jacksonBentleySelected() {
     jacksonSelectionRedBar.style.width = '250px';
@@ -347,6 +378,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideJacksonBentley.style.display = 'inline-block';
     hideJacksonMaserati.style.display = 'none';
     hideJacksonAlfa.style.display = 'none';
+    if (cityMQ.matches) {
+      jacksonSelectionRedBar.style.left = '260px';
+      jacksonScroll.style.left = '-200px';
+      jacksonSelectionRedBar.style.width = '250px';
+    }
   }
   function jacksonMaseratiSelected() {
     jacksonSelectionRedBar.style.width = '250px';
@@ -356,6 +392,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideJacksonBentley.style.display = 'none';
     hideJacksonMaserati.style.display = 'inline-block';
     hideJacksonAlfa.style.display = 'none';
+    if (cityMQ.matches) {
+      jacksonSelectionRedBar.style.left = '520px';
+      jacksonScroll.style.left = '-450px';
+      jacksonSelectionRedBar.style.width = '250px';
+    }
   }
   function jacksonAlfaSelected() {
     jacksonSelectionRedBar.style.width = '250px';
@@ -365,6 +406,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideJacksonBentley.style.display = 'none';
     hideJacksonMaserati.style.display = 'none';
     hideJacksonAlfa.style.display = 'inline-block';
+    if (cityMQ.matches) {
+      jacksonSelectionRedBar.style.left = '780px';
+      jacksonScroll.style.left = '-700px';
+      jacksonSelectionRedBar.style.width = '250px';
+    }
   }
 
   //chicago dealers functions
@@ -375,6 +421,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideChicagoAll.style.display = 'inline-block';
     hideChicagoHonda.style.display = 'none';
     hideChicagoVolks.style.display = 'none';
+    if (cityMQ.matches) {
+      chicagoSelectionRedBar.style.left = '0px';
+      chicagoScroll.style.left = '0px';
+      chicagoSelectionRedBar.style.width = '250px';
+    }
   }
   function chicagoHondaSelected() {
     chicagoSelectionRedBar.style.width = '250px';
@@ -383,6 +434,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideChicagoAll.style.display = 'none';
     hideChicagoHonda.style.display = 'inline-block';
     hideChicagoVolks.style.display = 'none';
+    if (cityMQ.matches) {
+      chicagoSelectionRedBar.style.left = '260px';
+      chicagoScroll.style.left = '-200px';
+      chicagoSelectionRedBar.style.width = '250px';
+    }
   }
   function chicagoVolksSelected() {
     chicagoSelectionRedBar.style.width = '250px';
@@ -391,6 +447,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideChicagoAll.style.display = 'none';
     hideChicagoHonda.style.display = 'none';
     hideChicagoVolks.style.display = 'inline-block';
+    if (cityMQ.matches) {
+      chicagoSelectionRedBar.style.left = '520px';
+      chicagoScroll.style.left = '-450px';
+      chicagoSelectionRedBar.style.width = '250px';
+    }
   }
 
   //edison dealers functions
@@ -402,6 +463,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideEdisonFerrari.style.display = 'none';
     hideEdisonBentley.style.display = 'none';
     hideEdisonMaserati.style.display = 'none';
+    if (cityMQ.matches) {
+      edisonSelectionRedBar.style.left = '0px';
+      edisonScroll.style.left = '0px';
+      edisonSelectionRedBar.style.width = '250px';
+    }
   }
   function edisonFerrariSelected() {
     edisonSelectionRedBar.style.width = '250px';
@@ -411,6 +477,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideEdisonFerrari.style.display = 'inline-block';
     hideEdisonBentley.style.display = 'none';
     hideEdisonMaserati.style.display = 'none';
+
+    if (cityMQ.matches) {
+      edisonSelectionRedBar.style.left = '260px';
+      edisonScroll.style.left = '-200px';
+      edisonSelectionRedBar.style.width = '250px';
+    }
   }
   function edisonBentleySelected() {
     edisonSelectionRedBar.style.width = '250px';
@@ -420,6 +492,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideEdisonFerrari.style.display = 'none';
     hideEdisonBentley.style.display = 'inline-block';
     hideEdisonMaserati.style.display = 'none';
+    if (cityMQ.matches) {
+      edisonSelectionRedBar.style.left = '520px';
+      edisonScroll.style.left = '-450px';
+      edisonSelectionRedBar.style.width = '250px';
+    }
   }
   function edisonMaseratiSelected() {
     edisonSelectionRedBar.style.width = '250px';
@@ -429,6 +506,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     hideEdisonFerrari.style.display = 'none';
     hideEdisonBentley.style.display = 'none';
     hideEdisonMaserati.style.display = 'inline-block';
+    if (cityMQ.matches) {
+      edisonSelectionRedBar.style.left = '780px';
+      edisonScroll.style.left = '-700px';
+      edisonSelectionRedBar.style.width = '250px';
+    }
   }
 
   // - - - - - Events
