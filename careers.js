@@ -9,6 +9,9 @@ const careerPageMapSelectionScroller = D.getElementById('careerPageMapSelectionS
 const dealerScroll = D.getElementById('dealerScroll');
 const miamiSelectionRedBar = D.getElementById('miamiSelectionRedBar');
 const stuartSelectionRedBar = D.getElementById('stuartSelectionRedBar');
+const jacksonSelectionRedBar = D.getElementById('jacksonSelectionRedBar');
+const chicagoSelectionRedBar = D.getElementById('chicagoSelectionRedBar');
+const edisonSelectionRedBar = D.getElementById('edisonSelectionRedBar');
 
 const cityMiami = D.getElementById('cityMiami');
 const cityStuart = D.getElementById('cityStuart');
@@ -50,6 +53,37 @@ const hideStuartAudi = D.getElementById('hideStuartAudi');
 const hideStuartInfiniti = D.getElementById('hideStuartInfiniti');
 const hideStuartAlfa = D.getElementById('hideStuartAlfa');
 const hideStuartMaserati = D.getElementById('hideStuartMaserati');
+
+//jackson locations dealers
+const jacksonAll = D.getElementById('jacksonAll');
+const jacksonBentley = D.getElementById('jacksonBentley');
+const jacksonMaserati = D.getElementById('jacksonMaserati');
+const jacksonAlfa = D.getElementById('jacksonAlfa');
+
+const hideJacksonAll = D.getElementById('hideJacksonAll');
+const hideJacksonBentley = D.getElementById('hideJacksonBentley');
+const hideJacksonMaserati = D.getElementById('hideJacksonMaserati');
+const hideJacksonAlfa = D.getElementById('hideJacksonAlfa');
+
+//chicago locations dealers
+const chicagoAll = D.getElementById('chicagoAll');
+const chicagoHonda = D.getElementById('chicagoHonda');
+const chicagoVolks = D.getElementById('chicagoVolks');
+
+const hideChicagoAll = D.getElementById('hideChicagoAll');
+const hideChicagoHonda = D.getElementById('hideChicagoHonda');
+const hideChicagoVolks = D.getElementById('hideChicagoVolks');
+
+//edison locations dealers
+const edisonAll = D.getElementById('edisonAll');
+const edisonFerrari = D.getElementById('edisonFerrari');
+const edisonBentley = D.getElementById('edisonBentley');
+const edisonMaserati = D.getElementById('edisonMaserati');
+
+const hideEdisonAll = D.getElementById('hideEdisonAll');
+const hideEdisonFerrari = D.getElementById('hideEdisonFerrari');
+const hideEdisonBentley = D.getElementById('hideEdisonBentley');
+const hideEdisonMaserati = D.getElementById('hideEdisonMaserati');
 
 let cityMQ = window.matchMedia('(max-width: 1050px)');
 
@@ -175,7 +209,7 @@ function miamiCadillacSelected() {
 }
 function miamiHondaSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '770px';
+  miamiSelectionRedBar.style.left = '780px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -186,7 +220,7 @@ function miamiHondaSelected() {
 }
 function miamiMazdaSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '1080px';
+  miamiSelectionRedBar.style.left = '1040px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -197,7 +231,7 @@ function miamiMazdaSelected() {
 }
 function miamiBrickellSelected() {
   miamiSelectionRedBar.style.width = '250px';
-  miamiSelectionRedBar.style.left = '1290px';
+  miamiSelectionRedBar.style.left = '1300px';
 
   hideMiamiAll.style.display = 'none';
   hideMiamiGmc.style.display = 'none';
@@ -240,7 +274,7 @@ function stuartInfinitiSelected() {
 }
 function stuartAlfaSelected() {
   stuartSelectionRedBar.style.width = '250px';
-  stuartSelectionRedBar.style.left = '770px';
+  stuartSelectionRedBar.style.left = '780px';
 
   hideStuartAll.style.display = 'none';
   hideStuartAudi.style.display = 'none';
@@ -250,7 +284,7 @@ function stuartAlfaSelected() {
 }
 function stuartMaseratiSelected() {
   stuartSelectionRedBar.style.width = '250px';
-  stuartSelectionRedBar.style.left = '1080px';
+  stuartSelectionRedBar.style.left = '1040px';
 
   hideStuartAll.style.display = 'none';
   hideStuartAudi.style.display = 'none';
@@ -259,32 +293,127 @@ function stuartMaseratiSelected() {
   hideStuartMaserati.style.display = 'inline-block';
 }
 
-var selectedLocation = 'miami';
+//jackson dealers functions
+function jacksonAllSelected() {
+  jacksonSelectionRedBar.style.width = '250px';
+  jacksonSelectionRedBar.style.left = '0px';
+
+  hideJacksonAll.style.display = 'inline-block';
+  hideJacksonBentley.style.display = 'none';
+  hideJacksonMaserati.style.display = 'none';
+  hideJacksonAlfa.style.display = 'none';
+}
+function jacksonBentleySelected() {
+  jacksonSelectionRedBar.style.width = '250px';
+  jacksonSelectionRedBar.style.left = '260px';
+
+  hideJacksonAll.style.display = 'none';
+  hideJacksonBentley.style.display = 'inline-block';
+  hideJacksonMaserati.style.display = 'none';
+  hideJacksonAlfa.style.display = 'none';
+}
+function jacksonMaseratiSelected() {
+  jacksonSelectionRedBar.style.width = '250px';
+  jacksonSelectionRedBar.style.left = '520px';
+
+  hideJacksonAll.style.display = 'none';
+  hideJacksonBentley.style.display = 'none';
+  hideJacksonMaserati.style.display = 'inline-block';
+  hideJacksonAlfa.style.display = 'none';
+}
+function jacksonAlfaSelected() {
+  jacksonSelectionRedBar.style.width = '250px';
+  jacksonSelectionRedBar.style.left = '780px';
+
+  hideJacksonAll.style.display = 'none';
+  hideJacksonBentley.style.display = 'none';
+  hideJacksonMaserati.style.display = 'none';
+  hideJacksonAlfa.style.display = 'inline-block';
+}
+
+//chicago dealers functions
+function chicagoAllSelected() {
+  chicagoSelectionRedBar.style.width = '250px';
+  chicagoSelectionRedBar.style.left = '0px';
+
+  hideChicagoAll.style.display = 'inline-block';
+  hideChicagoHonda.style.display = 'none';
+  hideChicagoVolks.style.display = 'none';
+}
+function chicagoHondaSelected() {
+  chicagoSelectionRedBar.style.width = '250px';
+  chicagoSelectionRedBar.style.left = '260px';
+
+  hideChicagoAll.style.display = 'none';
+  hideChicagoHonda.style.display = 'inline-block';
+  hideChicagoVolks.style.display = 'none';
+}
+function chicagoVolksSelected() {
+  chicagoSelectionRedBar.style.width = '250px';
+  chicagoSelectionRedBar.style.left = '780px';
+
+  hideChicagoAll.style.display = 'none';
+  hideChicagoHonda.style.display = 'none';
+  hideChicagoVolks.style.display = 'inline-block';
+}
+
+//edison dealers functions
+function edisonAllSelected() {
+  edisonSelectionRedBar.style.width = '250px';
+  edisonSelectionRedBar.style.left = '0px';
+
+  hideEdisonAll.style.display = 'inline-block';
+  hideEdisonFerrari.style.display = 'none';
+  hideEdisonBentley.style.display = 'none';
+  hideEdisonMaserati.style.display = 'none';
+}
+function edisonFerrariSelected() {
+  edisonSelectionRedBar.style.width = '250px';
+  edisonSelectionRedBar.style.left = '260px';
+
+  hideEdisonAll.style.display = 'none';
+  hideEdisonFerrari.style.display = 'inline-block';
+  hideEdisonBentley.style.display = 'none';
+  hideEdisonMaserati.style.display = 'none';
+}
+function edisonBentleySelected() {
+  edisonSelectionRedBar.style.width = '250px';
+  edisonSelectionRedBar.style.left = '520px';
+
+  hideEdisonAll.style.display = 'none';
+  hideEdisonFerrari.style.display = 'none';
+  hideEdisonBentley.style.display = 'inline-block';
+  hideEdisonMaserati.style.display = 'none';
+}
+function edisonMaseratiSelected() {
+  edisonSelectionRedBar.style.width = '250px';
+  edisonSelectionRedBar.style.left = '780px';
+
+  hideEdisonAll.style.display = 'none';
+  hideEdisonFerrari.style.display = 'none';
+  hideEdisonBentley.style.display = 'none';
+  hideEdisonMaserati.style.display = 'inline-block';
+}
 
 // - - - - - Events
 cityMiami.addEventListener('click', () => {
   miamiSelected();
-  selectedLocation = 'miami';
 });
 
 cityStuart.addEventListener('click', () => {
   stuartSelected();
-  selectedLocation = 'stuart';
 });
 
 cityJackson.addEventListener('click', () => {
   jacksonSelected();
-  selectedLocation = 'jackson';
 });
 
 cityChicago.addEventListener('click', () => {
   chicagoSelected();
-  selectedLocation = 'chicago';
 });
 
 cityEdison.addEventListener('click', () => {
   edisonSelected();
-  selectedLocation = 'edison';
 });
 
 //miami dealers
@@ -324,50 +453,45 @@ stuartMaserati.addEventListener('click', () => {
   stuartMaseratiSelected();
 });
 
-// var location = {
-//   miami: {
-//     tabs: [
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103668', //open
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103661', //gmc
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103662', //cadillac
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103664', //honda
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103667', //mazda
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103660' //brickle
-//     ]
-//   },
-//   stuart: {
-//     tabs: [
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103668', //open
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103658', //audi
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103665', //infinite
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103657', //alf roman
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103666' //maserati
-//     ]
-//   },
-//   jackson: {
-//     tabs: [
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103668', //open
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103659', //bentley
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103666', //maserati
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103657' //alf roman
-//     ]
-//   },
-//   chicago: {
-//     tabs: [
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103668', //open
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103664', //honda
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103669' //volks
-//     ]
-//   },
-//   edison: {
-//     tabs: [
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103668', //open
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103663', //ferrari
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103659', //bentley
-//       'https://service.secureoffersites.com//images/GetLibraryImage?fileNameOrId=103666' //maserati
-//     ]
-//   }
-// };
+//Jackson dealers
+jacksonAll.addEventListener('click', () => {
+  jacksonAllSelected();
+});
+jacksonBentley.addEventListener('click', () => {
+  jacksonBentleySelected();
+});
+jacksonMaserati.addEventListener('click', () => {
+  jacksonMaseratiSelected();
+});
+jacksonAlfa.addEventListener('click', () => {
+  jacksonAlfaSelected();
+});
+
+//chicago dealers
+chicagoAll.addEventListener('click', () => {
+  chicagoAllSelected();
+});
+chicagoHonda.addEventListener('click', () => {
+  chicagoHondaSelected();
+});
+chicagoVolks.addEventListener('click', () => {
+  chicagoVolksSelected();
+});
+
+//edison dealers
+edisonAll.addEventListener('click', () => {
+  edisonAllSelected();
+});
+edisonFerrari.addEventListener('click', () => {
+  edisonFerrariSelected();
+});
+edisonBentley.addEventListener('click', () => {
+  edisonBentleySelected();
+});
+edisonMaserati.addEventListener('click', () => {
+  edisonMaseratiSelected();
+});
+
 
 
 
