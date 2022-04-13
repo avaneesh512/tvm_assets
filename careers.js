@@ -116,9 +116,9 @@ function stuartSelected() {
   hideEdison.style.display = 'none';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '150px';
+    careerPageSelectionRedBar.style.left = '312px';
     careerPageMapSelectionScroller.style.left = '0px';
-    careerPageSelectionRedBar.style.width = '96px';
+    careerPageSelectionRedBar.style.width = '302px';
   }
 }
 
@@ -133,9 +133,9 @@ function jacksonSelected() {
   hideEdison.style.display = 'none';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '150px';
-    careerPageMapSelectionScroller.style.left = '-150px';
-    careerPageSelectionRedBar.style.width = '155px';
+    careerPageSelectionRedBar.style.left = '624px';
+    careerPageMapSelectionScroller.style.left = '-312px';
+    careerPageSelectionRedBar.style.width = '302px';
   }
 }
 
@@ -150,9 +150,9 @@ function chicagoSelected() {
   hideEdison.style.display = 'none';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '150px';
-    careerPageMapSelectionScroller.style.left = '-380px';
-    careerPageSelectionRedBar.style.width = '108px';
+    careerPageSelectionRedBar.style.left = '936px';
+    careerPageMapSelectionScroller.style.left = '-624px';
+    careerPageSelectionRedBar.style.width = '302px';
   }
 }
 
@@ -167,9 +167,9 @@ function edisonSelected() {
   hideEdison.style.display = 'inline-block';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '150px';
-    careerPageMapSelectionScroller.style.left = '-550px';
-    careerPageSelectionRedBar.style.width = '103px';
+    careerPageSelectionRedBar.style.left = '1248px';
+    careerPageMapSelectionScroller.style.left = '-936px';
+    careerPageSelectionRedBar.style.width = '302px';
   }
 }
 
