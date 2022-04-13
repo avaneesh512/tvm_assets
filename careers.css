@@ -166,11 +166,11 @@
   width: 50%;
 }
 #textarea_editor .position-ul li {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #eee;
   margin: 0px;
 }
 #textarea_editor .position-ul:last-child {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
 }
 #textarea_editor #dealerScroll {
   left: 0px;
@@ -223,6 +223,7 @@
 #textarea_editor #hideEdisonAll {
   display: inline-block;
 }
+
 #textarea_editor #homePageMapTabCont {
   padding-top: 10px;
   padding-bottom: 50px;
