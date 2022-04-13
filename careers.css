@@ -189,6 +189,25 @@
   left: 0;
   bottom: -20px;
 }
+#textarea_editor #jacksonSelectionRedBar {
+  width: 250px;
+  height: 4px;
+  left: 0;
+  bottom: -20px;
+}
+#textarea_editor #chicagoSelectionRedBar {
+  width: 250px;
+  height: 4px;
+  left: 0;
+  bottom: -20px;
+}
+#textarea_editor #edisonSelectionRedBar {
+  width: 250px;
+  height: 4px;
+  left: 0;
+  bottom: -20px;
+}
+
 #textarea_editor #hideMiamiAll {
   display: inline-block;
 }
