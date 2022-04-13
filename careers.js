@@ -116,7 +116,7 @@ function stuartSelected() {
   hideEdison.style.display = 'none';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '312px';
+    careerPageSelectionRedBar.style.left = '10px';
     careerPageMapSelectionScroller.style.left = '-302px';
     careerPageSelectionRedBar.style.width = '302px';
   }
@@ -133,8 +133,8 @@ function jacksonSelected() {
   hideEdison.style.display = 'none';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '624px';
-    careerPageMapSelectionScroller.style.left = '-302px';
+    careerPageSelectionRedBar.style.left = '12px';
+    careerPageMapSelectionScroller.style.left = '-612px';
     careerPageSelectionRedBar.style.width = '302px';
   }
 }
@@ -150,8 +150,8 @@ function chicagoSelected() {
   hideEdison.style.display = 'none';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '936px';
-    careerPageMapSelectionScroller.style.left = '-302px';
+    careerPageSelectionRedBar.style.left = '12px';
+    careerPageMapSelectionScroller.style.left = '-924px';
     careerPageSelectionRedBar.style.width = '302px';
   }
 }
@@ -167,8 +167,8 @@ function edisonSelected() {
   hideEdison.style.display = 'inline-block';
 
   if (cityMQ.matches) {
-    careerPageSelectionRedBar.style.left = '1248px';
-    careerPageMapSelectionScroller.style.left = '-936px';
+    careerPageSelectionRedBar.style.left = '12px';
+    careerPageMapSelectionScroller.style.left = '-1236px';
     careerPageSelectionRedBar.style.width = '302px';
   }
 }
@@ -491,6 +491,7 @@ edisonBentley.addEventListener('click', () => {
 edisonMaserati.addEventListener('click', () => {
   edisonMaseratiSelected();
 });
+
 
 
 });
