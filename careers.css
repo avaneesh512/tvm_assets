@@ -172,7 +172,11 @@
 #textarea_editor .position-ul:last-child {
   border-bottom: 1px solid #eee;
 }
-#textarea_editor #dealerScroll {
+#textarea_editor #miamiScroll,
+#textarea_editor #stuartScroll,
+#textarea_editor #jacksonScroll,
+#textarea_editor #chicagoScroll,
+#textarea_editor #edisonScroll {
   left: 0px;
   top: 0px;
   height: 100%;
@@ -480,7 +484,7 @@
   #textarea_editor .murgadoSecondaryMaxWidth,
   #textarea_editor #LogoAnimationBigCont {
     padding-left: 20px;
-    padding-right: 0;
+    padding-right: 20px;
   }
   #textarea_editor #careerPageMapSelectionCont {
     margin-left: 20px;
@@ -503,5 +507,8 @@
   }
   #textarea_editor .homePageMapTabs {
     height: 460px;
+  }
+  .position-ul {
+    width: 100%;
   }
 }
