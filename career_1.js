@@ -619,16 +619,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   function handleGesture() {
     if (touchendX < touchstartX) {
-      slideCount--;
       if (slideCount <= 0) {
-        slideCount = 5;
+        return;
       }
+      slideCount--;
     }
     if (touchendX > touchstartX) {
-      slideCount++;
       if (slideCount > 5) {
-        slideCount = 1;
+        return;
       }
+      slideCount++;
     }
     switch (slideCount) {
       case 1:
