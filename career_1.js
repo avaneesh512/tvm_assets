@@ -618,13 +618,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
   const slider = document.getElementById('careerPageMapSelectionScroller');
 
   function handleGesture() {
-    if (touchendX < touchstartX) {
+    if (touchendX > touchstartX) {
       if (slideCount <= 0) {
         return;
       }
       slideCount--;
     }
-    if (touchendX > touchstartX) {
+    if (touchendX < touchstartX) {
       if (slideCount > 5) {
         return;
       }
