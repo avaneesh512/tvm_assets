@@ -482,9 +482,6 @@
 	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 height: 460px;
 	}
-	 #textarea_editor .group_logos_scroll #homePageMapSelectionCont {
-		overflow: auto; 
-	 }
 }
 @keyframes logoAnim01 {
 
