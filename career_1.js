@@ -615,7 +615,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   let touchstartX = 0;
   let touchendX = 0;
 
-  const slider = document.getElementById('slider');
+  const slider = document.getElementById('careerPageMapSelectionScroller');
 
   function handleGesture() {
     if (touchendX < touchstartX) {
