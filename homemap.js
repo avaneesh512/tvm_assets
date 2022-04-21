@@ -79,8 +79,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
       hideEdison.style.display = 'none';
 
       if (cityMQ.matches) {
-        homePageMapSelectionRedBar.style.left = '150px';
-        homePageMapSelectionScroller.style.left = '-150px';
+        homePageMapSelectionRedBar.style.left = '100px';
+        homePageMapSelectionScroller.style.left = '-200px';
         homePageMapSelectionRedBar.style.width = '155px';
       }
     }
