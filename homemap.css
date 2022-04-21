@@ -1,3 +1,18 @@
+#textarea_editor .group_logos_scroll * {
+	 padding: 0;
+	 margin: 0;
+	 font-size: 0px;
+	 line-height: 100%;
+	 vertical-align: top;
+	 transition: all 0.3s linear;
+	 text-decoration-color: #ffffff;
+	 text-underline-offset: 3px;
+	 scroll-behavior: smooth;
+	 font-family: Arial, Helvetica, sans-serif;
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
 #textarea_editor .group_logos_scroll .centerMe {
 	 margin: 0 auto;
 }
@@ -162,7 +177,7 @@
 	 left: 0px;
 	 top: 0px;
 	 height: 100%;
-	 width: 870px;
+	 width: 850px;
 }
  #textarea_editor .group_logos_scroll .citySelectionCont {
 	 top: 0;
@@ -467,6 +482,9 @@
 	 #textarea_editor .group_logos_scroll .homePageMapTabs {
 		 height: 460px;
 	}
+	 #textarea_editor .group_logos_scroll #homePageMapSelectionCont {
+		overflow: auto; 
+	 }
 }
 @keyframes logoAnim01 {
 
