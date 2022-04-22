@@ -512,7 +512,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
       edisonSelectionRedBar.style.width = '250px';
     }
   }
-
+  var selectedState = 'miami';
+  var tabCount = 6;
   // - - - - - Events
   cityMiami.addEventListener('click', () => {
     miamiSelected();
@@ -615,7 +616,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
   let touchstartX = 0;
   let touchendX = 0;
 
+  let tabtouchstartX = 0;
+  let tabtouchendX = 0;
+
   const slider = document.getElementById('careerPageMapSelectionScroller');
+  const tabSlider = document.getElementById('careerPageTabs');
 
   function handleGesture() {
     if (touchendX > touchstartX) {
@@ -633,18 +638,28 @@ window.addEventListener('DOMContentLoaded', (event) => {
     switch (slideCount) {
       case 1:
         miamiSelected();
+        selectedState = 'miami';
+        tabCount = 6;
         break;
       case 2:
         stuartSelected();
+        selectedState = 'stuart';
+        tabCount = 5;
         break;
       case 3:
         jacksonSelected();
+        selectedState = 'jackson';
+        tabCount = 4;
         break;
       case 4:
         chicagoSelected();
+        selectedState = 'chicago';
+        tabCount = 3;
         break;
       case 5:
         edisonSelected();
+        selectedState = 'edison';
+        tabCount = 4;
         break;
     }
   }
@@ -655,6 +670,129 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   slider.addEventListener('touchend', (e) => {
     touchendX = e.changedTouches[0].screenX;
-    handleGesture();
+    debounce(handleGesture, 100);
   });
+
+  tabSlider.addEventListener('touchstart', (e) => {
+    tabtouchstartX = e.changedTouches[0].screenX;
+  });
+
+  tabSlider.addEventListener('touchend', (e) => {
+    tabtouchendX = e.changedTouches[0].screenX;
+    debounce(tabHandleGesture, 100);
+  });
+
+  function debounce(method, delay) {
+    let cancelScroll;
+    clearTimeout(cancelScroll);
+    cancelScroll = setTimeout(function () {
+      method();
+    }, delay);
+  }
+
+  var tabSlideCount = 1;
+
+  function tabHandleGesture() {
+    if (tabtouchendX > tabtouchstartX) {
+      if (tabSlideCount <= 0) {
+        return;
+      }
+      tabSlideCount--;
+    }
+    if (tabtouchendX < tabtouchstartX) {
+      if (tabSlideCount > tabCount) {
+        return;
+      }
+      tabSlideCount++;
+    }
+
+    switch (selectedState) {
+      case 'miami':
+        switch (tabSlideCount) {
+          case 1:
+            miamiAllSelected();
+            break;
+          case 2:
+            miamiGmcSelected();
+            break;
+          case 3:
+            miamiCadillacSelected();
+            break;
+          case 4:
+            miamiHondaSelected();
+            break;
+          case 5:
+            miamiMazdaSelected();
+            break;
+          case 6:
+            miamiBrickellSelected();
+            break;
+        }
+        break;
+      case 'stuart':
+        switch (tabSlideCount) {
+          case 1:
+            stuartAllSelected();
+            break;
+          case 2:
+            stuartAudiSelected();
+            break;
+          case 3:
+            stuartInfinitiSelected();
+            break;
+          case 4:
+            stuartAlfaSelected();
+            break;
+          case 5:
+            stuartMaseratiSelected();
+            break;
+        }
+        break;
+      case 'jackson':
+        switch (tabSlideCount) {
+          case 1:
+            jacksonAllSelected();
+            break;
+          case 2:
+            jacksonBentleySelected();
+            break;
+          case 3:
+            jacksonMaseratiSelected();
+            break;
+          case 4:
+            jacksonAlfaSelected();
+            break;
+        }
+        break;
+      case 'chicago':
+        switch (tabSlideCount) {
+          case 1:
+            chicagoAllSelected();
+            break;
+          case 2:
+            chicagoHondaSelected();
+            break;
+          case 3:
+            chicagoVolksSelected();
+            break;
+        }
+        break;
+      case 'edison':
+        switch (tabSlideCount) {
+          case 1:
+            edisonAllSelected();
+            break;
+          case 2:
+            edisonFerrariSelected();
+            break;
+          case 3:
+            edisonBentleySelected();
+            break;
+          case 4:
+            edisonMaseratiSelected();
+            break;
+        }
+        break;
+    }
+  }
 });
