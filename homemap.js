@@ -32,9 +32,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const hideEdison = homeMap.getElementById('hideEdison');
 
     let cityMQ = window.matchMedia('(max-width: 1050px)');
-
+    let slidePositionCount = 1;
     // - - - - - Functions:
     function miamiSelected() {
+      slidePositionCount = 1;
       homePageMapSelectionRedBar.style.width = '111px';
       homePageMapSelectionRedBar.style.left = '0px';
 
@@ -52,6 +53,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
 
     function stuartSelected() {
+      slidePositionCount = 2;
       homePageMapSelectionRedBar.style.width = '113px';
       homePageMapSelectionRedBar.style.left = '150px';
 
@@ -69,6 +71,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
 
     function jacksonSelected() {
+      slidePositionCount = 3;
       homePageMapSelectionRedBar.style.width = '187px';
       homePageMapSelectionRedBar.style.left = '300px';
 
@@ -86,6 +89,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
 
     function chicagoSelected() {
+      slidePositionCount = 4;
       homePageMapSelectionRedBar.style.width = '130px';
       homePageMapSelectionRedBar.style.left = '530px';
 
@@ -103,6 +107,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     }
 
     function edisonSelected() {
+      slidePositionCount = 5;
       homePageMapSelectionRedBar.style.width = '124px';
       homePageMapSelectionRedBar.style.left = '700px';
 
@@ -139,5 +144,58 @@ window.addEventListener('DOMContentLoaded', (event) => {
     cityEdison.addEventListener('click', () => {
       edisonSelected();
     });
+
+    let touchstartX = 0;
+    let touchendX = 0;
+
+    const homeMapSlider = document.getElementById('homePageMapSelectionScroller');
+
+    function handleGesture() {
+      if (touchendX < touchstartX) {
+        if (slidePositionCount <= 0) {
+          return;
+        }
+        slidePositionCount--;
+      }
+      if (touchendX > touchstartX) {
+        if (slidePositionCount > 5) {
+          return;
+        }
+        slidePositionCount++;
+      }
+      switch (slidePositionCount) {
+        case 1:
+          miamiSelected();
+          break;
+        case 2:
+          stuartSelected();
+          break;
+        case 3:
+          jacksonSelected();
+          break;
+        case 4:
+          chicagoSelected();
+          break;
+        case 5:
+          edisonSelected();
+          break;
+      }
+    }
+
+    homeMapSlider.addEventListener('touchstart', (e) => {
+      touchstartX = e.changedTouches[0].screenX;
+    });
+
+    homeMapSlider.addEventListener('touchend', (e) => {
+      touchendX = e.changedTouches[0].screenX;
+      debounce();
+    });
+
+    function debounce(delay) {
+      clearTimeout(cancelScroll);
+      let cancelScroll = setTimeout(function () {
+        handleGesture();
+      }, delay);
+    }
   }
 });
