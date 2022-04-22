@@ -192,8 +192,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
 
     function debounce(delay) {
+      let cancelScroll;
       clearTimeout(cancelScroll);
-      let cancelScroll = setTimeout(function () {
+      cancelScroll = setTimeout(function () {
         handleGesture();
       }, delay);
     }
