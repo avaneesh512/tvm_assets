@@ -543,77 +543,99 @@ window.addEventListener('DOMContentLoaded', (event) => {
   //miami dealers
   miamiAll.addEventListener('click', () => {
     miamiAllSelected();
+    tabSlideCount = 1;
   });
   miamiGmc.addEventListener('click', () => {
     miamiGmcSelected();
+    tabSlideCount = 2;
   });
   miamiCadillac.addEventListener('click', () => {
     miamiCadillacSelected();
+    tabSlideCount = 3;
   });
   miamiHonda.addEventListener('click', () => {
     miamiHondaSelected();
+    tabSlideCount = 4;
   });
   miamiMazda.addEventListener('click', () => {
     miamiMazdaSelected();
+    tabSlideCount = 5;
   });
   miamiBrickell.addEventListener('click', () => {
     miamiBrickellSelected();
+    tabSlideCount = 6;
   });
 
   //stuart dealers
   stuartAll.addEventListener('click', () => {
     stuartAllSelected();
+    tabSlideCount = 1;
   });
   stuartAudi.addEventListener('click', () => {
     stuartAudiSelected();
+    tabSlideCount = 2;
   });
   stuartInfiniti.addEventListener('click', () => {
     stuartInfinitiSelected();
+    tabSlideCount = 3;
   });
   stuartAlfa.addEventListener('click', () => {
     stuartAlfaSelected();
+    tabSlideCount = 4;
   });
   stuartMaserati.addEventListener('click', () => {
     stuartMaseratiSelected();
+    tabSlideCount = 5;
   });
 
   //Jackson dealers
   jacksonAll.addEventListener('click', () => {
     jacksonAllSelected();
+    tabSlideCount = 1;
   });
   jacksonBentley.addEventListener('click', () => {
     jacksonBentleySelected();
+    tabSlideCount = 2;
   });
   jacksonMaserati.addEventListener('click', () => {
     jacksonMaseratiSelected();
+    tabSlideCount = 3;
   });
   jacksonAlfa.addEventListener('click', () => {
     jacksonAlfaSelected();
+    tabSlideCount = 4;
   });
 
   //chicago dealers
   chicagoAll.addEventListener('click', () => {
     chicagoAllSelected();
+    tabSlideCount = 1;
   });
   chicagoHonda.addEventListener('click', () => {
     chicagoHondaSelected();
+    tabSlideCount = 2;
   });
   chicagoVolks.addEventListener('click', () => {
     chicagoVolksSelected();
+    tabSlideCount = 3;
   });
 
   //edison dealers
   edisonAll.addEventListener('click', () => {
     edisonAllSelected();
+    tabSlideCount = 1;
   });
   edisonFerrari.addEventListener('click', () => {
     edisonFerrariSelected();
+    tabSlideCount = 2;
   });
   edisonBentley.addEventListener('click', () => {
     edisonBentleySelected();
+    tabSlideCount = 3;
   });
   edisonMaserati.addEventListener('click', () => {
     edisonMaseratiSelected();
+    tabSlideCount = 4;
   });
 
   var slideCount = 1;
