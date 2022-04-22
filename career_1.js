@@ -515,25 +515,30 @@ window.addEventListener('DOMContentLoaded', (event) => {
   var selectedState = 'miami';
   var tabCount = 6;
   // - - - - - Events
-  //   cityMiami.addEventListener('click', () => {
-  //     miamiSelected();
-  //   });
+  cityMiami.addEventListener('click', () => {
+    miamiSelected();
+    slideCount = 1;
+  });
 
-  //   cityStuart.addEventListener('click', () => {
-  //     stuartSelected();
-  //   });
+  cityStuart.addEventListener('click', () => {
+    stuartSelected();
+    slideCount = 2;
+  });
 
-  //   cityJackson.addEventListener('click', () => {
-  //     jacksonSelected();
-  //   });
+  cityJackson.addEventListener('click', () => {
+    jacksonSelected();
+    slideCount = 3;
+  });
 
-  //   cityChicago.addEventListener('click', () => {
-  //     chicagoSelected();
-  //   });
+  cityChicago.addEventListener('click', () => {
+    chicagoSelected();
+    slideCount = 4;
+  });
 
-  //   cityEdison.addEventListener('click', () => {
-  //     edisonSelected();
-  //   });
+  cityEdison.addEventListener('click', () => {
+    edisonSelected();
+    slideCount = 5;
+  });
 
   //miami dealers
   miamiAll.addEventListener('click', () => {
