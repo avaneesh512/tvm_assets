@@ -624,13 +624,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   function handleGesture() {
     if (touchendX > touchstartX) {
-      if (slideCount <= 0) {
+      if (slideCount <= 1) {
         return;
       }
       slideCount--;
     }
     if (touchendX < touchstartX) {
-      if (slideCount > 5) {
+      if (slideCount >= 5) {
         return;
       }
       slideCount++;
@@ -699,13 +699,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
   function tabHandleGesture() {
     if (tabtouchendX > tabtouchstartX) {
-      if (tabSlideCount <= 0) {
+      if (tabSlideCount <= 1) {
         return;
       }
       tabSlideCount--;
     }
     if (tabtouchendX < tabtouchstartX) {
-      if (tabSlideCount > tabCount) {
+      if (tabSlideCount >= tabCount) {
         return;
       }
       tabSlideCount++;
