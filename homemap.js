@@ -50,6 +50,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         homePageMapSelectionScroller.style.left = '0px';
         homePageMapSelectionRedBar.style.width = '94px';
       }
+      document.getElementById('homePageMapTabCont').scrollLeft = 0;
     }
 
     function stuartSelected() {
@@ -68,6 +69,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         homePageMapSelectionScroller.style.left = '0px';
         homePageMapSelectionRedBar.style.width = '96px';
       }
+      document.getElementById('homePageMapTabCont').scrollLeft = 0;
     }
 
     function jacksonSelected() {
@@ -86,6 +88,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         homePageMapSelectionScroller.style.left = '-200px';
         homePageMapSelectionRedBar.style.width = '155px';
       }
+      document.getElementById('homePageMapTabCont').scrollLeft = 0;
     }
 
     function chicagoSelected() {
@@ -104,6 +107,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         homePageMapSelectionScroller.style.left = '-380px';
         homePageMapSelectionRedBar.style.width = '108px';
       }
+      document.getElementById('homePageMapTabCont').scrollLeft = 0;
     }
 
     function edisonSelected() {
@@ -122,6 +126,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         homePageMapSelectionScroller.style.left = '-550px';
         homePageMapSelectionRedBar.style.width = '103px';
       }
+      document.getElementById('homePageMapTabCont').scrollLeft = 0;
     }
 
     // - - - - - Events
