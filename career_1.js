@@ -641,30 +641,35 @@ window.addEventListener('DOMContentLoaded', (event) => {
         selectedState = 'miami';
         tabCount = 6;
         tabSlideCount = 1;
+        miamiAllSelected();
         break;
       case 2:
         stuartSelected();
         selectedState = 'stuart';
         tabCount = 5;
         tabSlideCount = 1;
+        stuartAllSelected();
         break;
       case 3:
         jacksonSelected();
         selectedState = 'jackson';
         tabCount = 4;
         tabSlideCount = 1;
+        jacksonAllSelected();
         break;
       case 4:
         chicagoSelected();
         selectedState = 'chicago';
         tabCount = 3;
         tabSlideCount = 1;
+        chicagoAllSelected();
         break;
       case 5:
         edisonSelected();
         selectedState = 'edison';
         tabCount = 4;
         tabSlideCount = 1;
+        edisonAllSelected();
         break;
     }
   }
