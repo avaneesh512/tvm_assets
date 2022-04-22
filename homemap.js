@@ -151,13 +151,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const homeMapSlider = document.getElementById('homePageMapSelectionScroller');
 
     function handleGesture() {
-      if (touchendX < touchstartX) {
+      if (touchendX > touchstartX) {
         if (slidePositionCount <= 0) {
           return;
         }
         slidePositionCount--;
       }
-      if (touchendX > touchstartX) {
+      if (touchendX < touchstartX) {
         if (slidePositionCount > 5) {
           return;
         }
