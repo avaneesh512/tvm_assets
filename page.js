@@ -513,7 +513,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     testimonialCont.addEventListener('touchend', (e) => {
       touchendX = e.changedTouches[0].screenX;
-      handleGesture();
+      debounce(100);
     });
 
     testimonialCont.addEventListener('touchstart', (e) => {
@@ -522,8 +522,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     testimonialCont.addEventListener('touchend', (e) => {
       touchendX = e.changedTouches[0].screenX;
-      handleGesture();
+      debounce(100);
     });
+
+    function debounce(delay) {
+      let cancelScroll;
+      clearTimeout(cancelScroll);
+      cancelScroll = setTimeout(function () {
+        handleGesture();
+      }, delay);
+    }
 
     testinomialDot01.addEventListener('click', () => {
       testimonialPos01();
