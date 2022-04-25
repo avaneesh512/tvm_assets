@@ -516,15 +516,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
       debounce(100);
     });
 
-    testimonialCont.addEventListener('touchstart', (e) => {
-      touchstartX = e.changedTouches[0].screenX;
-    });
-
-    testimonialCont.addEventListener('touchend', (e) => {
-      touchendX = e.changedTouches[0].screenX;
-      debounce(100);
-    });
-
     function debounce(delay) {
       let cancelScroll;
       clearTimeout(cancelScroll);
